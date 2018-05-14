@@ -1,0 +1,98 @@
+{{ define "main" }}
+
+<section class="container catalogue">
+  <h1>Catalogue</h1>
+  <!--<div class="row">
+    {{ range .Data.Pages }}
+    {{ range .Params.galerieronde }}
+    <div class="col col-lg-4 col-md-6 col-sm-12 text-center padding-top-bot-5">
+      <div class="panel">
+    <div class="front cardindex">
+      <a href="{{ .lien }}"><img src="{{ .imgt }}" width="200"></a>
+    </div>
+    <div class="back cardindex">
+      <a href="{{ .lien }}"><img src="{{ .img }}" alt="{{ .nom }}" width="200"></a>
+    </div>
+</div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<section>-->
+<div class="row">
+  {{ range .Data.Pages }}
+  {{ if isset .Params "espace" }}
+  <div class="col-lg-6 padding-top-bot-2 mx-auto text-center">
+    <div class="image">
+      <a href="/catalogue/{{ .Params.lien }}">
+        <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="250" title="{{ .Params.title }}">
+        <p class="catalogue-age" style="padding-top:1rem;">{{ .Params.age }}</p>
+      </a>
+    </div>
+</div>
+{{ end }}
+{{ end }}
+
+</div>
+</section>
+
+<!--<section class="container">
+  <div class="row">
+    {{ range .Params.galerie }}
+    <div class="col col-lg-4 col-md-6 col-sm-12 text-center padding-top-bot-5">
+      <div class="panel">
+    <div class="front cardindex">
+      <a href="{{ .lien }}"><img src="{{ .img }}" alt="{{ .nom }}" width="200"></a>
+    </div>
+    <div class="back cardindex">
+      <a href="{{ .lien }}"><img src="{{ .imgt }}" width="200"></a>
+    </div>
+</div>
+    </div>
+    {{ end }}
+  </div>
+</section>-->
+<section class="container">
+  <div class="catalogue">
+  <h1>Nos offres</h1>
+</div>
+  <div class="row">
+    {{ range .Data.Pages }}
+    {{ if isset .Params "offrespro" }}
+    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
+      <div class="presta">
+        <div class="icon">
+        <img src="{{ .Params.icon }}" alt="{{ .Title }}" width="60rem">
+        </div>
+       <h2 class="locationtitle">{{ .Title }}</h2>
+       <p class="locationcontent">{{ .Params.intro | markdownify }}</p>
+       <!-- Large modal -->
+       <div class="text-center">
+       <button type="button" class="explicationbutton" data-toggle="modal" data-target=".bd-example-modal-lg{{ .Params.slug }}">En savoir plus</button>
+     </div>
+       <div class="modal fade bd-example-modal-lg{{ .Params.slug }}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+            <img src="{{ .Params.icon }}" class="mx-auto" alt="{{ .Title }}" width="60rem">
+             <h2 class="explicationtitle">{{ .Title }}</h2>
+             <hr>
+             <div class="explication">
+             <div class="explicationcontent">{{ .Content }}</div>
+           </div>
+         </div>
+         </div>
+       </div>
+    </div>
+  </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+
+{{ end }}

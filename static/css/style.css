@@ -1,0 +1,495 @@
+/*Général*/
+
+.green {
+  background-color: rgb(6,163,6)
+}
+.green-light {
+  background-color: rgb(237,248,248)
+}
+.green-dark {
+  background-color: rgb(25,81,1)
+}
+.orange-light {
+  background-color: rgb(254,233,204)
+}
+.pink-light {
+  background-color: rgb(243,227,240)
+}
+.yellow-light {
+  background-color: rgb(247,245,206)
+}
+.purple-light {
+  background-color: rgb(238,237,255)
+}
+.text-green {
+  color: rgb(137,148,148);
+}
+.text-center {
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.padding-top-bot-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.padding-top-bot-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.padding-top-bot-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.padding-3 {
+  padding: 3rem;
+}
+.padding-5 {
+  padding: 5rem;
+}
+.padding-7 {
+  padding: 7rem;
+}
+
+p {
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+a:active {
+  font-weight: 600;
+}
+.lead-content {
+  font-size: 1.3rem;
+  font-weight: 200;
+  text-align: center;
+}
+.content p {
+  font-weight: 200;
+  padding-left: 1rem;
+}
+.content h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.content h3 {
+  font-weight: 400;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  color: gray;
+}
+.content h2 {
+  font-weight: 200;
+  text-align:center;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.content li {
+  list-style: none;
+  font-weight: 200;
+}
+
+ /* index */
+ .haut-page {
+   text-align: center;
+   padding: 1rem;
+ }
+ .panel {
+     width: 200px;
+     height: 200px;
+     margin: auto;
+     position: relative;
+ }
+
+ .cardindex {
+     width: 100%;
+     height: 100%;
+     -o-transition: all .8s;
+     -ms-transition: all .8s;
+     -moz-transition: all .8s;
+     -webkit-transition: all .8s;
+     transition: all .8s;
+     -webkit-backface-visibility: hidden;
+     -ms-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+     backface-visibility: hidden;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border: none;
+ }
+
+ .front {
+     z-index: 2;
+ }
+
+ .back {
+     z-index: 1;
+     -webkit-transform: rotateY(-180deg);
+     -ms-transform: rotateY(-180deg);
+     -moz-transform: rotateY(-180deg);
+     transform: rotateY(-180deg);
+ }
+
+ .panel:hover .front {
+     z-index: 1;
+     -webkit-transform: rotateY(180deg);
+     -ms-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+     transform: rotateY(180deg);
+ }
+
+ .panel:hover .back {
+     z-index: 2;
+     -webkit-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     -moz-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+ }
+
+ .index h1 {
+   color: rgb(25,81,1);
+   text-transform: uppercase;
+ }
+
+ .index h2 {
+   color: gray;
+}
+.citation {
+  padding-top: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.thumbnail {
+    width: 260px;
+    height: 260px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.index-h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  border-bottom: solid 0.5px;
+  text-align: center;
+}
+.link-catalogue h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(50,50,50);
+}
+.link-catalogue {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.link-catalogue a:hover {
+  font-size: 1.5rem;
+}
+/* Catalogue single */
+
+.catalogue-age {
+  font-weight: 100;
+  font-size: 1.4rem;
+  color: silver;
+}
+
+
+.catalogue-description {
+  padding: 3rem;
+}
+
+.catalogue-h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-bottom: solid 0.5px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: right;
+    text-shadow: 0px 0px 2px black;
+}
+
+.carouselnu-caption {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+}
+
+.carouselnu-padding {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-bottom: 3rem;
+}
+
+.carousel-text-index {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.carousel-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.catalogue-ul {
+  font-weight: 200;
+  font-size: 1.3rem;
+  list-style: none;
+  padding-left: 8rem;
+}
+
+.catalogue-ul li {
+  padding-bottom: 0.5rem;
+}
+
+.catalogue-ul-bold {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.technique {
+  font-style: italic;
+  font-weight: 200;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.prix h2 {
+  font-weight: 400;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.prix p {
+  font-size: 1.1rem;
+}
+
+.prix h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.devis h1 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(6,163,6);
+}
+
+/* Catalogue */
+
+.catalogue h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  border-bottom: solid 0.5px;
+  text-align: center;
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+}
+.cataloguetitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 4rem;
+}
+
+.presta {
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.prestaaccueil {
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.locationtitle {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.locationintro {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(40, 40, 40);
+}
+
+.locationcontent {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.explicationbutton {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  color: silver;
+  border: none;
+  font-size: 0.9rem;
+  background-color: white;
+}
+
+button:focus {
+    outline: 0px dotted;
+}
+
+button:hover {
+  font-weight: 500;
+}
+
+.explicationtitle {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.explicationcontent li {
+  font-weight: 200;
+}
+
+.explicationcontent p {
+  font-weight: 200;
+}
+
+.explicationcontent h1 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding-left: -1rem;
+  padding-bottom: 0.7rem;
+  padding-top: 1rem;
+}
+
+.explication {
+  padding-left: 3rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.close {
+  text-align: right;
+  margin-right: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+
+ .icon {
+   text-align: center;
+   padding-bottom: 1.5rem;
+ }
+
+.catalogue-card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.intro {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* contact */
+.container-contact {
+  margin: 5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.form-control {
+  margin-bottom: 1rem;
+}
+label {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+small {
+  font-weight: 200;
+  color: silver;
+}
+input {
+  font-weight: 200;
+}
+
+/* footer */
+.partenaire {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}

@@ -1,0 +1,117 @@
+{{ define "main" }}
+
+<section class="container">
+  <div class="text-center">
+    <img class="padding-top-bot-5" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
+    <p class="catalogue-age">{{ .Params.age }}</p>
+    <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
+  </div>
+</section>
+
+
+<section class="container padding-top-bot-2">
+  <h1 class="catalogue-h1">Les éléments de l'espace</h1>
+  <div class="carouselnu-padding">
+  <div id="carouselnu" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {{ range $index, $element :=  .Params.carousselnu }}
+    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
+      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+      <p><span class="carousel-text">{{ $element.nom }}</span></p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <a class="carousel-control-prev" href="#carouselnu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselnu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+<section class="container padding-top-bot-2">
+  <h1 class="catalogue-h1">L'espace en jeu</h1>
+  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {{ range $index, $element :=  .Params.carousselenjeu }}
+    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
+      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+      <p><span class="carousel-text">{{ $element.nom }}</span></p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+<section class="container padding-top-bot-2">
+  <h1 class="catalogue-h1">Informations techniques</h1>
+  <ul class="catalogue-ul">
+    <li><span class="catalogue-ul-bold">Age :</span> {{ .Params.age }}</li>
+    <li><span class="catalogue-ul-bold">Nombre d'enfants :</span> jusqu'à {{ .Params.nombre }}</li>
+    <li><span class="catalogue-ul-bold">Superficie nécessaire au jeu :</span> {{ .Params.superficie }}</li>
+    <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}
+  </ul>
+<p class="technique">{{ .Params.nb | markdownify }}</p>
+</section>
+
+<section class="container padding-top-bot-2">
+  <h1 class="catalogue-h1">Tarifs</h1>
+  <div class="padding-top-bot-2">
+
+ <div class="row text-center prix">
+   <div class="col col-lg-6 col-md-6 col-sm-12">
+     <div class="icon">
+     <img src="/img/icon-location.png" alt="Location" width="45rem">
+     </div>
+     <h2>Professionnels</h2>
+     <h3>Manifestations, festivals</h3>
+       <p>à partir de {{ .Params.prixmanifpro }} euros la journée</p>
+     <h3>Structure d'accueil</h3>
+       <p>Location à partir de {{ .Params.prixlocation }} euros la semaine</p>
+       <small>(tarif dégressif dès la deuxième semaine)</small>
+   </div>
+   <div class="col col-lg-6 col-md-6 col-sm-12">
+     <div class="icon">
+     <img src="/img/icon-evenement.png" alt="Prestation" width="45rem">
+     </div>
+     <h2>Particuliers</h2>
+     <h3>Anniversaires</h3>
+      <p>à partir de 280 euros jusqu'à 10 enfants<br>+ 15 euros par enfants supplémentaires</p>
+     <h3>Mariages, fêtes de famille</h3>
+       <p>à partir de {{ .Params.prixmanifpart }} euros la demie-journée</p>
+   </div>
+ </div>
+</div>
+</section>
+
+<section class="container">
+  <div class="row devis">
+    <div class="col-lg-3">
+    <img src="/img/arrow-b.png" alt="fleche" width="40">
+  </div>
+  <div class="col-lg-6">
+  <h1><a href="/contact">Demandez un devis sur mesure</a></h1>
+</div>
+<div class="col-lg-3">
+  <img src="/img/arrow.png" alt="fleche" width="40">
+</div>
+</div>
+</section>
+
+{{ end }}

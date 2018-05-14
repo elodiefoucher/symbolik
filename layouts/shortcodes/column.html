@@ -1,0 +1,5 @@
+<div class ="{{ if .Get "class"}}{{.Get "class"}}{{else}}col{{end}}">
+  <p style="padding-left:3rem;">
+  {{ .Inner | markdownify }}
+  </p>
+</div>

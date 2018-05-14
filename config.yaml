@@ -1,0 +1,7 @@
+baseURL: "https://www.symbolik.fr"
+languageCode: "en-us"
+title: "Symbolik"
+description: ""
+favicon: "/favicon.ico"
+params:
+  email: "contact@symbolik.fr"
