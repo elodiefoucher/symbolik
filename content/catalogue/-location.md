@@ -1,7 +1,7 @@
 ---
 title: "Location à la semaine"
 slug: "location"
-icon: "/img/icon-location.png"
+icon: "/img/icon-agenda.png"
 intro: "Vous êtes une structure d'accueil ?<br>Enrichissez votre panel d’activité avec un espace de jeu autonome pour l’enfant."
 introaccueil: "Enrichissez votre panel d’activité avec un espace de jeu autonome pour l’enfant."
 offrespro: "oui"

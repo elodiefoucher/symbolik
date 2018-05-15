@@ -11,8 +11,9 @@ description: "Le cirque et ses numéros en tout genre !<br>Avec ses trois pistes
 superficie: "30 m²"
 preference: "Intérieur"
 nombre: "8"
-location: "330 euros"
-Prestation: "360 euros"
+prixlocation: "330"
+prixmanifpro: "360"
+prixmanifpart: "360"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
 galerieronde:
   - nom: "Cirque"

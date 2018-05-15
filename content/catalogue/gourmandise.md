@@ -11,9 +11,9 @@ description: "Un refuge de gourmandise s'offre aux plus petits !<br>Ils entrent 
 superficie: "20 m²"
 preference: ""
 nombre: "10"
-prix:
-location: "330 euros"
-Prestation: "360 euros"
+prixlocation: "330"
+prixmanifpro: "360"
+prixmanifpart: "360"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
 galerieronde:
   - nom: "Gourmandise"

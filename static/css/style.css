@@ -485,6 +485,9 @@ small {
 input {
   font-weight: 200;
 }
+.envoyer {
+  text-align: center;
+}
 
 /* footer */
 .partenaire {

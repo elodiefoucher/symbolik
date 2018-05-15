@@ -1,7 +1,7 @@
 ---
-title: "Prestation événement"
-slug: "evenement"
-icon: "/img/icon-evenement.png"
+title: "Prestation animation"
+slug: "prestationparticuliers"
+icon: "/img/icon-fanion.png"
 intro: "Vous organisez un événement et vous chercher une activité ludique  originale ? <br>Symbolik vous propose ses espaces de jeux."
 introaccueil: "Proposez une activité ludique et originale avec un espace symbolique."
 offrespro: "oui"
