@@ -15,9 +15,9 @@ offres:
   - nom: "Professionnels"
     intro: "Manifestation, festival, structure d'accueil"
     description: "Enrichissez votre panel d’activité avec un espace de jeu original pour l’enfant."
-    icon: "/img/icon-location.png"
+    icon: "/img/icon-agenda.png"
   - nom: "Particuliers"
     intro: "Anniversaires, mariages, fêtes de famille"
     description: "Symbolik vient à vous et assure une animation sur mesure pour votre événement !"
-    icon: "/img/icon-evenement.png"
+    icon: "/img/icon-fanion.png"
 ---
