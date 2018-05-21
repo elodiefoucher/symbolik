@@ -68,11 +68,20 @@ Le jeu symbolique permet à l’enfant de tester : tester ses émotions, tester 
 
 # Symbolik, une fabrication artisanale
 
+{{< row >}}
 
-Les espaces de jeu sont fabriqués à Lyon.
+{{< column class="col-lg-9 col-md-9 col-sm-12" >}}
+Les espaces de jeu sont fabriqués à **Lyon**.
 
-Elodie, la créatrice, est couturière de métier et bricoleuse pour le reste.
+Elodie, la créatrice, est **couturière de métier et bricoleuse** pour le reste.
 
-Avec ses espaces de jeux, elle propose aux enfants des environnements variés pour développer leur créativité dans des mondes adaptés à leur âge. Les espaces de jeu sont pensés et construits comme un décor de théâtre dans lequel l’enfant se promène et prend le rôle qu’il désire.
+Avec ses espaces de jeux, elle propose aux enfants des environnements variés pour développer leur créativité dans des **mondes adaptés à leur âge**. Les espaces de jeu sont pensés et construits comme un **décor de théâtre** dans lequel l’enfant se promène et prend le rôle qu’il désire.
+{{< /column >}}
+{{< column >}}
+{{< figure src="/img/portrait-elo.jpg" width="150">}}
+{{< /column >}}
+{{< /row >}}
 
-Les objets ludiques sont principalement issus de la récupération : brocante, magasins de seconde main, dons... Ils sont ensuite transformés par un travail de couture, de menuiserie ou de bricolage. Chaque objet est choisi pour son intérêt de jeu et pour sa pertinence liée au thème et à l’âge de l’enfant. L’idée est aussi de donner aux enfants des objets à jouer qui ne sont pas toujours des jouets.
+Les objets ludiques sont principalement issus de la récupération : brocante, magasins de seconde main, dons...   
+Ils sont ensuite transformés par un travail de couture, de menuiserie ou de bricolage.   
+Chaque objet est choisi pour son **intérêt de jeu** et pour sa **pertinence** liée au thème et à l’âge de l’enfant. L’idée est de donner aux enfants des objets à jouer qui ne sont pas toujours des jouets.
