@@ -2,13 +2,16 @@
 title: "Le jeu symbolique"
 intro: "Symbolik propose aux enfants de se plonger dans ses univers singuliers et poétique. <br>Réalistes ou fantasques, les espaces de jeu Symbolik s'adaptent à l'âge pour laisser la liberté à l'imaginaire de se développer."
 ---
+# Symbolik c'est quoi ?
+
+{{< figure src="/img/symbolik-c-est-quoi-2r.png" width="90%">}}
 
 # Le jeu symbolique, le jeu du faire-semblant.
 
 ## Jouer au papa et à la maman, jouer au docteur, à la cuisine ou aux cowboys : les jeux d’imitation entrent très tôt dans la vie d’un enfant et l’accompagnent dans son développement.
 
-Les jeux d’imitation, de rôle ou de mise en scène ont été mis en lumière par Jean Piaget, un Psychologue Suisse du 20 ème siècle qui les désigne sous le nom de "jeux symboliques."  
-Le jeu va permettre à l’enfant d'assimiler les codes du monde et de se construire dans un espace préservé et sécurisé.
+Les jeux d’imitation, de rôle ou de mise en scène ont été mis en lumière par **Jean Piaget**, un Psychologue Suisse du 20 ème siècle qui les désigne sous le nom de "jeux symboliques."  
+**Le jeu va permettre à l’enfant d'assimiler les codes du monde et de se construire dans un espace préservé et sécurisé.**
 <br>
 <br>
 Il va se développer principalement sur trois aspects :
@@ -22,8 +25,8 @@ Il va se développer principalement sur trois aspects :
 {{< column >}}
 ### L'imitation : rejouer des choses de son quotidien.
 
-Elle permet à l’enfant d’assimiler et de mettre en pratique ses apprentissages. Jouer à la dinette, mimer ses parents qui préparent un repas, langer un poupon et lui faire prendre le bain ; tous ces gestes et situations reproduits aguérissent l'enfant et lui donne de la dextérité et de l'assurance.  
-Le jeu symbolique constitue un entrainement de la vraie vie, il lui permet de renforcer ses habiletés sociales et motrices.
+Elle permet à l’enfant d’assimiler et de **mettre en pratique ses apprentissages**. Jouer à la dinette, mimer ses parents qui préparent un repas, langer un poupon et lui faire prendre le bain ; tous ces gestes et situations reproduits aguérissent l'enfant et lui donne de la dextérité et de l'assurance.  
+Le jeu symbolique constitue un entrainement de la vraie vie, il lui permet de **renforcer ses habiletés sociales et motrices.**
 {{< /column >}}
 
 {{< /row >}}
@@ -35,8 +38,8 @@ Le jeu symbolique constitue un entrainement de la vraie vie, il lui permet de re
 {{< column >}}
 ### L’imagination : se raconter une histoire.
 
-Que l'histoire prenne place dans un monde réel ou imagé, l’enfant va détourner les objets pour alimenter un scénario. Prendre un couvercle de casserole pour conduire un vaiseau spatial, un rouleau d'essui-tout vide pour une longue vue de pirate, l'enfant va se projetter dans l'histoire et accomoder ce qu'il trouve à ses idées.   
-Le jeu symbolique développe l’imagination en offrant un nombre infini d’histoire et de possibilités de jeu.
+Que l'histoire prenne place dans un monde réel ou imagé, l’enfant va **détourner les objets pour alimenter un scénario**. Prendre un couvercle de casserole pour conduire un vaiseau spatial, un rouleau d'essui-tout vide pour une longue vue de pirate, l'enfant va se projetter dans l'histoire et accomoder ce qu'il trouve à ses idées.   
+Le jeu symbolique **développe l’imagination** en offrant un nombre infini d’histoire et de possibilités de jeu.
 {{< /column >}}
 {{< column class="col-lg-3 col-md-3 col-sm-12" >}}
 {{< figure src="/img/imagination.png" width="190">}}
@@ -53,12 +56,12 @@ Le jeu symbolique développe l’imagination en offrant un nombre infini d’his
 
 ### L'expérimentation : l'expression des émotions et des idées.
 
-En prenant un rôle ou l’autre, l’enfant peut tester des comportements, rejouer des événements exceptionnels et les appréhender en ayant un contrôle sur les choses. C’est un très bon moyen pour lui d’exprimer un traumatisme et d'extérioriser ses émotions en toute sécurité affective.   
+En prenant un rôle ou l’autre, l’enfant peut tester des comportements, rejouer des événements exceptionnels et les appréhender en ayant un contrôle sur les choses. C’est un très bon moyen pour lui d’exprimer un traumatisme et d'**extérioriser ses émotions en toute sécurité affective.**   
 Le jeu symbolique permet à l’enfant de tester : tester ses émotions, tester ses réactions, adapter, rejouer ou moduler un comportement face à une situation.
 {{< /column >}}
 {{< /row >}}
 
-## Le jeu symbolique est à son apogée entre 18 mois et 6 ans. Cette tranche d’âge est variable d’un enfant à l’autre, mais le jeu symbolique continuera jusqu’à l’adolescence et au-delà.
+## **Le jeu symbolique est à son apogée entre 18 mois et 6 ans**. Cette tranche d’âge est variable d’un enfant à l’autre, mais le jeu symbolique continuera jusqu’à l’adolescence et au-delà.
 
 
 

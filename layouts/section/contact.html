@@ -1,8 +1,11 @@
 {{ define "main" }}
-<section class="content">
-  
+<section class="content text-intro">
+  <p>Pour toutes informations contactez Elodie au <span class="bold">{{ .Params.tel }}</span></p>
+  <br><br>
+  <p>Pour une demande de devis, faites votre demande par mail, nous vous recontactons rapidement</p>contact@symbolik.fr<p>ou via le formulaire :</p>
 
 </section>
+
 <section>
   <div class="container-contact content">
      <form>
@@ -13,8 +16,8 @@
     <input type="tel" class="form-control" id="tel">
   </div>
   <div class="form-group">
-    <label for="content">Décrivez votre demande, nous vous recontactons rapidement.<br>
-    <small>(Pour une demande de devis, pensez à préciser la date, le nombre d'enfants attendus ainsi que l'espace disponible !)</small></label>
+    <label for="content">Décrivez votre demande<br>
+    <small>Pour une demande de devis, pensez à préciser la date, la tranche d'âge et le nombre d'enfants attendus.</small></label>
     <textarea class="form-control" id="content" rows="5"></textarea>
   </div>
 </form>

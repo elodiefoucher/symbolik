@@ -1,9 +1,10 @@
 {{ define "main" }}
-
 <section class="container">
- <div class="content padding-7">
-   <p class="intro">{{ .Params.intro | markdownify }}<p>
+
+ <div class="content cest-quoi">
+   <p>
   {{ .Content | markdownify }}
+  <p>
 </div>
 </section>
 {{ end }}

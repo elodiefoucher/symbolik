@@ -7,10 +7,13 @@ description: "Très jeune, par l'imitation, l'enfant utilise naturellement le je
 caroussel:
   - nom: "Espace pirates"
     img: "/img/en-jeu-pirates.jpg"
+    lien: "/catalogue/pirates"
   - nom: "Espace gourmandise"
     img: "/img/en-jeu-gourmandise-2.jpg"   
+    lien: "/catalogue/gourmandise"
   - nom: "Espace cirque"
     img: "/img/en-jeu-cirque.jpg"
+    lien: "/catalogue/cirque"
 offres:
   - nom: "Professionnels"
     intro: "Manifestation, festival, structure d'accueil"

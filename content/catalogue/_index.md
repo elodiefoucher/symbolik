@@ -1,5 +1,9 @@
 ---
 title: "Catalogue"
+titleimg:
+  - "/img/titre-gourmandise.png"
+  - "/img/titre-cirque.png"
+  - "/img/titre-pirates.png"
 
 ---
 title: ""

@@ -14,9 +14,15 @@
 
   </head>
   <body>
-  <a href="/"><img src="/img/logo-long-bleu.png" alt="Symbolik" width="100%"></a>
+    {{ if ne .Section "catalogue" }}
 
+      <img src="/img/banniere-2s.png" alt="" width="100%">
+      {{ end }}
   <ul class="nav justify-content-center green-light sticky-top text-green">
+    <img src="/img/lolo-long-bleu.png" alt="" width="40">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Accueil</a>
+    </li>
   <li class="nav-item">
     <a class="nav-link" href="/jeu-symbolique">Symbolik, c'est quoi ?</a>
   </li>
@@ -27,6 +33,9 @@
     <a class="nav-link" href="/contact">Contact</a>
   </li>
 </ul>
+    {{ if ne .Section "catalogue" }}
+<img src="/img/frise-3.png" alt=""width="100%" height="100%" style="margin-top:-0.5rem;">
+    {{ end }}
 
 
 {{ block "main" .}}
@@ -36,25 +45,25 @@
 
 <footer class="green-light">
   <div class="container padding-top-bot-2">
-  <div class="row">
-    <div class="col-lg-3 text-center">
-      <img src="/img/logo-rond-blanc.png" alt="Symbolik" width="200">
+  <div class="row footer">
+    <div class="col-lg-4">
+      <h3>Où nous trouver ?</h3>
+      <img src="/img/carte-france.png" alt="Symbolik" width="150">
     </div>
-    <div class="col-lg-3 partenaire">
-      Partenaire avec
+    <div class="col-lg-4 renseignement">
+      <h3>Nous contacter</h3>
+      <p>contact@symbolik.fr<br>06 66 28 60 46</p>
+        <a href="https://www.facebook.com/symbolik.fr/" target="_blank"><i class="icons fab fa-facebook-f" style="font-size:1.7rem;"></i></a>
+
     </div>
-    <div class="col-lg-3 text-center">
-      <img src="/img/logo-poisson-chat.png" alt="Le Poisson-Chat" width="200">
-    </div>
-    <div class="col-lg-3 col text-center">
-      <img src="/img/logo-ludikap.png" alt="Collectif Ludikap" width="250">
+    <div class="col-lg-4">
+      <h3>Nos partenaires</h3>
+      <a href="https://www.le-poisson-chat.com/" target="_blank"><img src="/img/logo-poisson-chat.png" alt="Le Poisson-Chat" width="150"></a>
+      <a href="http://collectif-ludikap.fr/" target="_blank"><img src="/img/logo-ludikap.png" alt="Collectif Ludikap" width="190"></a>
     </div>
 
   </div>
   </div>
-  <div class="text-center">
-  <small>contact@symbolik.fr</small>
-</div>
 </footer>
 
 
