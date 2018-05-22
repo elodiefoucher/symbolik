@@ -2,7 +2,7 @@
 title: "Mariage, fête de famille"
 slug: "prestationparticuliers"
 icon: "/img/icon-fanion.png"
-intro: "Vous voulez que vos enfants profitent pleinement de votre événement ? <br>Symbolik vient à vous et leur propose une activité ludique originale."
+intro: "Vous voulez que vos enfants profitent pleinement de votre événement ? <br>Symbolik s'en charge !"
 introaccueil: "Proposez une activité ludique et originale avec un espace symbolique."
 offres: "oui"
 brouillon: "**Proposition d'animation de loisirs créatif** (en option) **:** en rapport avec le thème, création d'accessoires de déguisement et/ou de décor que les enfant peuvent intégrer dans l'espace de jeu symbolique. Les créations sont à ramener à la maison pour prolonger le jeu.<br>

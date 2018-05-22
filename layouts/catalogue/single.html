@@ -3,9 +3,9 @@
 <img src="{{ .Params.banniere }}" alt="late" width="100%">
 <section class="container">
   <div class="text-center padding-top-3">
-    <img class="padding-top-bot-2 padding-top-3" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
+    <img class="padding-top-bot-2 titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
     <p class="catalogue-age">{{ .Params.age }}</p>
-    <p class="catalogue-description lead">{{ .Params.description }}</p>
+    <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
   </div>
 </section>
 
@@ -68,30 +68,30 @@
     <li><span class="catalogue-ul-bold">Superficie nécessaire au jeu :</span> {{ .Params.superficie }}</li>
     <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}
   </ul>
-<p class="technique">{{ .Params.nb }}</p>
+<p class="technique">{{ .Params.nb | markdownify }}</p>
 </section>
 
 <section class="container padding-top-bot-2">
   <h1 class="catalogue-h1">Tarifs</h1>
-  <div class="padding-top-bot-2">
+  <div class="padding-top-bot-2 tarif">
 
  <div class="row text-center prix">
-   <div class="col col-lg-6 col-md-6 col-sm-12">
+   <div class="col-lg-6 col-md-6 col-sm-12">
      <div class="icon">
      <img src="/img/icon-agenda.png" alt="Location" width="45rem">
      </div>
-     <h2>Professionnels</h2>
+     <h2 style="padding:0;">Professionnels</h2>
      <h3>Manifestations, festivals</h3>
-       <p>Contactez-nous pour un devis sur mesure. <br>Pour des interventions de plusieurs jours, nous nous déplaçons hors région Rhône-Alpes.</p>
+       <p>Contactez-nous pour un devis sur mesure.</p>
      <h3>Structure d'accueil</h3>
-       <p>Location à partir de {{ .Params.prixlocation }} euros la semaine<br>Intervention journée ou demie-journée sur devis.</p>
+       <p>Intervention journée ou demie-journée sur devis. <br>Location à partir de {{ .Params.prixlocation }} euros la semaine</p>
        <small>(tarif dégressif dès la deuxième semaine)</small>
    </div>
-   <div class="col col-lg-6 col-md-6 col-sm-12">
-     <div class="icon">
+   <div class="col-lg-6 col-md-6 col-sm-12">
+     <div class="icon small">
      <img src="/img/icon-fanion.png" alt="Prestation" width="45rem">
      </div>
-     <h2>Particuliers</h2>
+     <h2 style="padding:0;">Particuliers</h2>
      <h3>Anniversaires</h3>
       <p>à partir de 280 euros jusqu'à 10 enfants<br>+ 15 euros par enfants supplémentaires.</p>
      <h3>Mariages, fêtes de famille</h3>
@@ -103,7 +103,7 @@
 
 <section class="container">
   <div class="text-center">
-  <a href="/contact"><button type="button" class="btn btn-light">Demandez un devis</button></a>
+  <a href="/contact"><button type="button" class="btn btn-light">Demander un devis</button></a>
 </div>
 
 </div>

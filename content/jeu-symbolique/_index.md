@@ -4,7 +4,7 @@ intro: "Symbolik propose aux enfants de se plonger dans ses univers singuliers e
 ---
 # Symbolik c'est quoi ?
 
-{{< figure src="/img/symbolik-c-est-quoi-2r.png" width="90%">}}
+{{< figure src="/img/symbolik-c-est-quoi-2r.png" class="schema">}}
 
 # Le jeu symbolique, le jeu du faire-semblant.
 

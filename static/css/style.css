@@ -1,3 +1,12 @@
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+
 /*Général*/
 
 .green {
@@ -247,7 +256,17 @@ a:active {
   font-size: 1.4rem;
   color: silver;
 }
-
+.tarif p {
+  margin-bottom: 0rem;
+}
+.tarif h2 {
+  margin-bottom: 0;
+}
+.tarif h3 {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
 
 .catalogue-description {
   padding: 3rem;
@@ -261,7 +280,11 @@ a:active {
   padding-left: 0.5rem;
   border-bottom: solid 0.5px;
 }
-
+@media (max-width: 576px) {
+  .catalogue-h1 {
+     font-size: 2rem;
+  }
+}
 
 .carousel-caption {
     position: absolute;
@@ -293,11 +316,22 @@ a:active {
     text-shadow: 0px 0px 2px black;
 }
 
-.carouselnu-padding {
-  padding-left: 7rem;
-  padding-right: 7rem;
-  padding-bottom: 3rem;
+@media (max-width: 576px) {
+  .carouselnu-padding {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
 }
+
+@media (min-width: 768px) {
+  .carouselnu-padding {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 3rem;
+  }
+}
+
 
 .carousel-text-index {
   font-size: 3.5rem;
@@ -309,11 +343,21 @@ a:active {
   font-weight: 500;
 }
 
+@media (max-width: 576px) {
+  .catalogue-ul {
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .catalogue-ul {
+    padding-left: 8rem;
+  }
+}
 .catalogue-ul {
   font-weight: 200;
   font-size: 1.3rem;
   list-style: none;
-  padding-left: 8rem;
 }
 
 .catalogue-ul li {
@@ -330,21 +374,56 @@ a:active {
    padding: 2rem;
  }
 
- .voiraussi img {
-   margin: 2rem;
- }
-
  .voiraussi h3 {
-   margin-top: 5rem;
    padding-right: 1rem;
    font-size: 1.5rem;
    text-transform: uppercase;
    font-weight: 300;
-   margin-left: 50%;
    padding-bottom: 0.5rem;
    padding-left: 0.5rem;
    border-bottom: solid 0.5px;
 }
+@media (max-width: 576px) {
+  .voiraussi h3 {
+    margin-top: 2rem;
+    text-align: right;
+  }
+  .voiraussi img {
+    margin: 1rem;
+  }
+  .voiraussi {
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .voiraussi h3 {
+    margin-top: 5rem;
+    margin-left: 50%;
+  }
+  .voiraussi img {
+    margin: 2rem;
+  }
+  .voiraussi {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .titleimg {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .titleimg {
+    width: 45%;
+    padding-top: 3rem;
+  }
+}
+
+
+
 .pic:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);
@@ -357,8 +436,20 @@ a:active {
 .technique {
   font-style: italic;
   font-weight: 200;
-  padding-left: 6rem;
-  padding-right: 6rem;
+}
+
+@media (max-width: 576px) {
+  .technique {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .technique {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 .prix h2 {
@@ -377,6 +468,12 @@ a:active {
   font-weight: 400;
 }
 
+@media (max-width: 576px) {
+.small {
+  margin-top: 2rem;
+}
+}
+
 .devis h1 {
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -391,14 +488,27 @@ a:active {
   font-weight: 300;
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
   margin-bottom: 3rem;
   border-bottom: solid 0.5px;
   text-align: center;
   padding-top: 5rem;
   margin-bottom: 3rem;
 }
+@media (max-width: 576px) {
+.catalogue h1 {
+   margin-left: 1rem;
+   margin-right: 1rem;
+   font-size: 2.3rem;
+ }
+}
+
+@media (min-width: 768px) {
+.catalogue h1 {
+   margin-left: 10rem;
+   margin-right: 10rem;
+ }
+}
+
 .cataloguetitle {
   text-align: center;
   text-transform: uppercase;
@@ -406,10 +516,19 @@ a:active {
   padding: 4rem;
 }
 
+@media (min-width: 768px) {
 .presta {
   padding-bottom: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+}
+@media (max-width: 576px) {
+  .presta {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
 }
 
 .prestaaccueil {
@@ -510,11 +629,21 @@ button:hover {
 }
 
 /* contact */
-.container-contact {
-  margin: 5rem;
-  padding-left: 9rem;
-  padding-right: 9rem;
+@media (max-width: 576px) {
+  .container-contact {
+    margin: 1rem;
+  }
 }
+
+@media (min-width: 768px) {
+  .container-contact {
+    margin: 5rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+
 .form-control {
   margin-bottom: 1rem;
 }
@@ -561,10 +690,27 @@ input {
 
 /* Symbolik c'ets quoi */
 
-.cest-quoi {
-  padding-left: 10rem;
-  padding-right: 5rem;
-  padding-top: 3rem;
+
+@media (max-width: 576px) {
+  .cest-quoi {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 3rem;
+  }
+  .schema img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cest-quoi {
+    padding-left: 10rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+  }
+  .schema img {
+    width: 90%;
+  }
 }
 
 /* contact-done */
