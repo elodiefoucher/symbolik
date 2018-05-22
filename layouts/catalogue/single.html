@@ -5,7 +5,7 @@
   <div class="text-center padding-top-3">
     <img class="padding-top-bot-2 titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
     <p class="catalogue-age">{{ .Params.age }}</p>
-    <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
+    <p class="catalogue-description lead">{{ .Params.description }}</p>
   </div>
 </section>
 
@@ -68,7 +68,7 @@
     <li><span class="catalogue-ul-bold">Superficie nécessaire au jeu :</span> {{ .Params.superficie }}</li>
     <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}
   </ul>
-<p class="technique">{{ .Params.nb | markdownify }}</p>
+<p class="technique">{{ .Params.nb }}</p>
 </section>
 
 <section class="container padding-top-bot-2">
