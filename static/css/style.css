@@ -311,6 +311,13 @@ a:active {
   font-size: 1.4rem;
   color: silver;
 }
+@media (max-width: 576px) {
+  .catalogue-age {
+    font-weight: 400;
+    font-size: 1.6rem;
+ }
+}
+
 .tarif p {
   margin-bottom: 0rem;
 }
@@ -755,6 +762,10 @@ input {
 .text-intro {
   text-align: center;
   padding-top: 4rem;
+}
+.text-tel {
+  padding-top: 1rem;
+  text-align: center;
 }
 /* footer */
 
