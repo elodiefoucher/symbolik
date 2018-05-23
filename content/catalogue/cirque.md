@@ -17,7 +17,10 @@ voiraussi:
     img: "/img/gourmandise-titre.jpg"
     age: "dès 18 mois, jusqu'à 6 ans"
 age: "de 3 à 8 ans"
-description: "Le cirque et ses numéros en tout genre !<br>Avec ses trois pistes et sa grande entrée, vos enfants plongent dans l'univers du cirque <br>et vous livrent des spectacles de haute voltige !<br>Dresseur, magicien, acrobate, clown, il y en a pour tous les talents !"
+description:
+  - a: "Le cirque et ses numéros en tout genre !"
+  - b: "Avec ses trois pistes et sa grande entrée, vos enfants plongent dans l'univers du cirque <br>et vous livrent des spectacles de haute voltige !"
+  - c: "Dresseur, magicien, acrobate, clown, il y en a pour tous les talents !"
 superficie: "30 m²"
 preference: "Intérieur"
 nombre: "10"
