@@ -1,9 +1,9 @@
 {{ define "main" }}
-s
-<img src="{{ .Params.banniere }}" alt="late" width="100%">
+<img src="{{ .Params.banniere }}" alt="{{ .Params.title }}" width="100%" class="responsive-l">
+<img src="{{ .Params.bannieresm }}" alt="{{ .Params.title }}" width="100%" class="responsive-sm">
 <section class="container">
   <div class="text-center padding-top-3">
-    <img class="padding-top-bot-2 titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
+    <img class="titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
     <p class="catalogue-age">{{ .Params.age }}</p>
       {{ if isset .Params "espace" }}
     <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
@@ -12,7 +12,7 @@ s
 </section>
 
 
-<section class="container padding-top-bot-2">
+<section class="container padding-top-bot-2 responsive-l">
   <h1 class="catalogue-h1">Les éléments de l'espace</h1>
   <div class="carouselnu-padding">
   <div id="carouselnu" class="carousel slide" data-ride="carousel">
@@ -38,7 +38,35 @@ s
 </div>
 </section>
 
-<section class="container padding-top-bot-2">
+<section class="container padding-top-bot-2 responsive-sm">
+  <h1 class="catalogue-h1">Les éléments de l'espace</h1>
+  <div class="carouselnu-padding">
+  <div id="carouselnu" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {{ range $index, $element :=  .Params.carousselnusm }}
+    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
+      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
+      <div class="carousel-caption">
+      <p><span class="carousel-text">{{ $element.nom }}</span></p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <a class="carousel-control-prev" href="#carouselnu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselnu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+
+
+<section class="container padding-top-bot-2 responsive-l">
   <h1 class="catalogue-h1">L'espace en jeu</h1>
   <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -61,6 +89,28 @@ s
   </a>
 </div>
 </section>
+
+<section class="container padding-top-bot-2 responsive-sm">
+  <h1 class="catalogue-h1">L'espace en jeu</h1>
+  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {{ range $index, $element :=  .Params.carousselenjeusm }}
+    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
+      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
+    </div>
+    {{ end }}
+  </div>
+  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
 
 <section class="container padding-top-bot-2">
   <h1 class="catalogue-h1">Informations techniques</h1>

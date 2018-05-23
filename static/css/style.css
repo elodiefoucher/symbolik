@@ -63,7 +63,9 @@
 .padding-7 {
   padding: 7rem;
 }
-
+.row {
+  padding:0;
+}
 p {
   font-weight: 200;
 }
@@ -93,14 +95,25 @@ a:active {
 }
 .content h1 {
   font-weight: 400;
-  font-size: 2rem;
   margin-bottom: 2rem;
   padding-top: 3rem;
   text-transform: uppercase;
   color: rgb(127,188,188);
-  border-bottom: 1px solid rgb(127,188,188);
+}
+@media (max-width: 576px) {
+  .content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
 }
 
+@media (min-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(127,188,188);
+
+}
+}
 .content h3 {
   font-weight: 400;
   padding-left: 2rem;
@@ -177,6 +190,12 @@ a:active {
      -moz-transform: rotateY(0deg);
      transform: rotateY(0deg);
  }
+ @media (max-width: 576px) {
+  .rotate {
+      transform: rotate(90deg);
+      width: 15%;
+  }
+ }
 
  .index h1 {
    color: black;
@@ -195,8 +214,22 @@ a:active {
 }
 .citation {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   font-weight: 200;
   font-size: 1.2rem;
+}
+@media (max-width: 576px) {
+  .citation-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+ .citation-padding {
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+ }
 }
 
 .thumbnail {
@@ -231,10 +264,21 @@ a:active {
   font-weight: 300;
   margin-bottom: 2rem;
   padding-bottom: 0.5rem;
-  margin-left: 13rem;
-  margin-right: 13rem;
   border-bottom: solid 0.5px;
   text-align: center;
+}
+@media (max-width: 576px) {
+.index-h1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+}
+
+@media (min-width: 768px) {
+  .index-h1 {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
 }
 .link-catalogue h2 {
   font-size: 1.4rem;
@@ -251,6 +295,17 @@ a:active {
 }
 /* Catalogue single */
 
+@media (max-width: 576px) {
+ .responsive-l {
+   display: none;
+ }
+}
+
+@media (min-width: 768px) {
+ .responsive-sm {
+   display: none;
+ }
+}
 .catalogue-age {
   font-weight: 100;
   font-size: 1.4rem;
@@ -268,9 +323,22 @@ a:active {
   margin-bottom: 0.5rem;
 }
 
-.catalogue-description {
-  padding: 3rem;
+@media (max-width: 576px) {
+  .catalogue-description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+  }
 }
+
+@media (min-width: 768px) {
+  .catalogue-description {
+    padding: 3rem;
+  }
+}
+
 
 .catalogue-h1 {
   text-transform: uppercase;
@@ -336,6 +404,19 @@ a:active {
 .carousel-text-index {
   font-size: 3.5rem;
   font-weight: 500;
+}
+@media (max-width: 576px) {
+  .carousel-text-index {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-text-index {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
 }
 
 .carousel-text {
@@ -418,7 +499,8 @@ a:active {
 @media (min-width: 768px) {
   .titleimg {
     width: 45%;
-    padding-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -694,6 +776,11 @@ input {
   padding-top: 1.5rem;
 }
 
+@media (max-width: 576px) {
+.face {
+  margin-bottom: 2rem;
+}
+}
 
 /* Symbolik c'ets quoi */
 
@@ -718,10 +805,50 @@ input {
   .schema img {
     width: 90%;
   }
-}
+
+
+  .icon-quoi {
+    width: 10rem;
+    text-align: center
+  }
+
 
 /* contact-done */
 
 .merci {
   text-align: center;
+}
+
+
+/*head*/
+
+.frise {
+  margin-top: -7px;
+}
+
+.frise-sm {
+  margin-top: -13px
+}
+
+.frise-md {
+  margin-top: -8px;
+}
+
+
+@media (max-width: 576px) {
+ .responsive-md {
+   display: none;
+}
+}
+
+@media (min-width: 992px) {
+ .responsive-md {
+   display: none;
+ }
+}
+
+@media (max-width: 992px) {
+.responsive-l-f {
+  display: none;
+}
 }

@@ -4,7 +4,8 @@ intro: "Symbolik propose aux enfants de se plonger dans ses univers singuliers e
 ---
 # Symbolik c'est quoi ?
 
-{{< figure src="/img/symbolik-c-est-quoi-2r.png" class="schema">}}
+{{< figure src="/img/symbolik-c-est-quoi.png" class="schema responsive-l">}}
+{{< figure src="/img/symbolik-c-est-quoi-sm.png" class="schema responsive-sm">}}
 
 # Le jeu symbolique, le jeu du faire-semblant.
 
@@ -20,9 +21,9 @@ Il va se développer principalement sur trois aspects :
 {{< row >}}
 
 {{< column class="col-lg-3 col-md-3 col-sm-12 text-center" >}}
-{{< figure src="/img/imitation.png" width="170">}}
+{{< figure src="/img/imitation.png" class="icon-quoi">}}
 {{< /column >}}
-{{< column >}}
+{{< column class="col-lg-9 col-md-9 col-sm-12">}}
 ### L'imitation : rejouer des choses de son quotidien.
 
 Elle permet à l’enfant d’assimiler et de **mettre en pratique ses apprentissages**. Jouer à la dinette, mimer ses parents qui préparent un repas, langer un poupon et lui faire prendre le bain ; tous ces gestes et situations reproduits aguérissent l'enfant et lui donne de la dextérité et de l'assurance.  
@@ -35,24 +36,26 @@ Le jeu symbolique constitue un entrainement de la vraie vie, il lui permet de **
 
 {{< row >}}
 
-{{< column >}}
+{{< column class="col-lg-9 col-md-9 col-sm-12">}}
+{{< figure src="/img/imagination.png" class="responsive-sm text-center">}}
+
 ### L’imagination : se raconter une histoire.
 
 Que l'histoire prenne place dans un monde réel ou imagé, l’enfant va **détourner les objets pour alimenter un scénario**. Prendre un couvercle de casserole pour conduire un vaiseau spatial, un rouleau d'essui-tout vide pour une longue vue de pirate, l'enfant va se projetter dans l'histoire et accomoder ce qu'il trouve à ses idées.   
 Le jeu symbolique **développe l’imagination** en offrant un nombre infini d’histoire et de possibilités de jeu.
 {{< /column >}}
 {{< column class="col-lg-3 col-md-3 col-sm-12" >}}
-{{< figure src="/img/imagination.png" width="190">}}
+{{< figure src="/img/imagination.png" class="responsive-l">}}
 {{< /column >}}
 {{< /row >}}
 
 
 {{< row >}}
 
-{{< column class="col-lg-3 col-md-3 col-sm-12" >}}
-{{< figure src="/img/experimentation.png" width="180">}}
+{{< column class="col-lg-3 col-md-3 col-sm-12 text-center" >}}
+{{< figure src="/img/experimentation.png" class="icon-quoi">}}
 {{< /column >}}
-{{< column >}}
+{{< column class="col-lg-9 col-md-9 col-sm-12">}}
 
 ### L'expérimentation : l'expression des émotions et des idées.
 
@@ -73,12 +76,14 @@ Le jeu symbolique permet à l’enfant de tester : tester ses émotions, tester 
 {{< column class="col-lg-9 col-md-9 col-sm-12" >}}
 Les espaces de jeu sont fabriqués à **Lyon**.
 
+{{< figure src="/img/portrait-elo.jpg" width="150" class="responsive-sm text-center">}}
+
 Elodie, la créatrice, est **couturière de métier et bricoleuse** pour le reste.
 
 Avec ses espaces de jeux, elle propose aux enfants des environnements variés pour développer leur créativité dans des **mondes adaptés à leur âge**. Les espaces de jeu sont pensés et construits comme un **décor de théâtre** dans lequel l’enfant se promène et prend le rôle qu’il désire.
 {{< /column >}}
 {{< column >}}
-{{< figure src="/img/portrait-elo.jpg" width="150">}}
+{{< figure src="/img/portrait-elo.jpg" width="150" class="responsive-l">}}
 {{< /column >}}
 {{< /row >}}
 
