@@ -5,7 +5,7 @@ s
   <div class="text-center padding-top-3">
     <img class="padding-top-bot-2 titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
     <p class="catalogue-age">{{ .Params.age }}</p>
-    <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
+    <div class="catalogue-description lead">{{ .Params.description | markdownify }}</div>
   </div>
 </section>
 
