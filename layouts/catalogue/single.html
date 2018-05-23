@@ -41,7 +41,7 @@
 <section class="container padding-top-bot-2 responsive-sm">
   <h1 class="catalogue-h1">Les éléments de l'espace</h1>
   <div class="carouselnu-padding">
-  <div id="carouselnu" class="carousel slide" data-ride="carousel">
+  <div id="carouselnusm" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {{ range $index, $element :=  .Params.carousselnusm }}
     <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
@@ -52,11 +52,11 @@
     </div>
     {{ end }}
   </div>
-  <a class="carousel-control-prev" href="#carouselnu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselnusm" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselnu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselnusm" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -92,7 +92,7 @@
 
 <section class="container padding-top-bot-2 responsive-sm">
   <h1 class="catalogue-h1">L'espace en jeu</h1>
-  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
+  <div id="carouselenjeusm" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {{ range $index, $element :=  .Params.carousselenjeusm }}
     <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
@@ -100,11 +100,11 @@
     </div>
     {{ end }}
   </div>
-  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselenjeusm" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselenjeusm" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -165,7 +165,7 @@
   <div class="voiraussi">
   <h3>Voir aussi</h3>
       {{ range .Params.voiraussi }}
-      <a href="{{ .lien }}"><img src="{{ .img }}" alt="{{ .espace }}" width="150" class="pic"></a>
+      <a href="{{ .lien }}"><img src="{{ .img }}" alt="{{ .espace }}" class="pic"></a>
     {{ end }}
   </div>
 </section>

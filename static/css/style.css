@@ -471,6 +471,7 @@ a:active {
   }
   .voiraussi img {
     margin: 1rem;
+    width: 120px;
   }
   .voiraussi {
     padding: 0rem;
@@ -484,6 +485,7 @@ a:active {
   }
   .voiraussi img {
     margin: 2rem;
+    width: 150px;
   }
   .voiraussi {
     padding: 2rem;
@@ -805,7 +807,7 @@ input {
   .schema img {
     width: 90%;
   }
-
+}
 
   .icon-quoi {
     width: 10rem;

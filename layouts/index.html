@@ -1,17 +1,5 @@
 {{ define "main" }}
 
-<!--<section>
-  <div class="container text-center index padding-3">
-    <div class="row">
-      <div class="col-lg-4">
-        <img src="/img/logo-rond-blanc.png" alt="Symbolik" width="300">
-      </div>
-      <div class="col-lg-8">
-    <h1>Location d'espaces de jeux thématisés</h1>
-    <h2>Livraison, installation, animation d'espace.</h2>
-</div>
-  </div>
-</section>-->
 <section class="container">
   <div class="text-center index">
       <h1>Location et animation d'espaces de jeux thématisés</h1>
@@ -19,11 +7,8 @@
   </div>
 </section>
 
-
-
-
 <section class="container padding-top-bot-5 responsive-l">
-  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
+  <div id="carouselenjeuindex" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {{ range $index, $element :=  .Params.caroussel }}
     <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
@@ -34,11 +19,11 @@
     </div>
     {{ end }}
   </div>
-  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselenjeuindex" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselenjeuindex" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -47,7 +32,7 @@
 
 
 <section class="container padding-top-bot-5 responsive-sm">
-  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
+  <div id="carouselenjeuindexsm" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     {{ range $index, $element :=  .Params.carousselsm }}
     <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
@@ -58,11 +43,11 @@
     </div>
     {{ end }}
   </div>
-  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselenjeuindexsm" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselenjeuindexsm" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
