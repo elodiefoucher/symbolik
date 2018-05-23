@@ -5,7 +5,7 @@
   <div class="text-center padding-top-3">
     <img class="padding-top-bot-2 titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}" width="45%">
     <p class="catalogue-age">{{ .Params.age }}</p>
-    <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
+    <p class="catalogue-description lead">{{ .Params.description | markdownifyBlock }}</p>
   </div>
 </section>
 
@@ -68,7 +68,7 @@
     <li><span class="catalogue-ul-bold">Superficie nécessaire au jeu :</span> {{ .Params.superficie }}</li>
     <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}
   </ul>
-<p class="technique">{{ .Params.nb | markdownify }}</p>
+<p class="technique">Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal.<br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc.</p>
 </section>
 
 <section class="container padding-top-bot-2">
