@@ -17,9 +17,7 @@ voiraussi:
     img: "/img/cirque-titre.jpg"
     age: "de 3 à 8 ans"
 age: "à partir de 5 ans"
-description:
-  - a: "A l'abordage ! Moussaillon ! Cachez le trésor !"
-  - b: "L'univers des pirates, intemporel et prisé des petits comme des grands permet de grandes aventures !<br> Cache au trésor, bateau, île déserte, le décor est riche et les voyages lointains.<br> Succès assuré !"
+description: "A l'abordage ! Moussaillon ! Cachez le trésor !<br>L'univers des pirates, intemporel et prisé des petits comme des grands permet de grandes aventures !<br> Cache au trésor, bateau, île déserte, le décor est riche et les voyages lointains.<br> Succès assuré !<br>"
 superficie: "40 m²"
 preference: "intérieur ou extérieur"
 nombre: "10"
