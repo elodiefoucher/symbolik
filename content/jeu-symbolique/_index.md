@@ -89,4 +89,5 @@ Avec ses espaces de jeux, elle propose aux enfants des environnements variés po
 
 Les objets ludiques sont principalement issus de la récupération : brocante, magasins de seconde main, dons...   
 Ils sont ensuite transformés par un travail de couture, de menuiserie ou de bricolage.   
-Chaque objet est choisi pour son **intérêt de jeu** et pour sa **pertinence** liée au thème et à l’âge de l’enfant. L’idée est de donner aux enfants des objets à jouer qui ne sont pas toujours des jouets. Se rapprocher au maximum du réél pour favoriser une immersion totale !
+Chaque objet est choisi pour son **intérêt de jeu** et pour sa **pertinence** liée au thème et à l’âge de l’enfant. L’idée est de donner aux enfants des objets à jouer qui ne sont pas toujours des jouets.  
+Se rapprocher au maximum du réél pour favoriser une immersion totale.
