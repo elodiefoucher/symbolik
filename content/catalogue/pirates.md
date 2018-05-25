@@ -72,7 +72,7 @@ carousselnusm:
   - nom: "La prison"
     img: "/img/pirates-sm-prison.jpg"
   - nom: "Les costumes"
-    img: "/img/pirates-deguisements.jpg"    
+    img: "/img/pirates-sm-deguisements.jpg"    
   - nom: "Les armes et la malle"
     img: "/img/pirates-sm-armes.jpg"    
   - nom: "Le trésor"

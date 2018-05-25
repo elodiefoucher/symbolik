@@ -11,19 +11,33 @@ bouillon: "**En option:** loisir créatif en rapport avec le thème : la créati
 ---
 Réservez le meilleur des anniversaires à votre enfant avec son thème favori !
 
-# Déroulement d'un anniversaire :
+# En pratique :
+
+- En amont l'on défini ensemble le thème, le nombre d'enfants, la date et le lieu de l'anniversaire de votre enfant.  
+Vous recevez par mail l'invitation à imprimer pour les invités.
+
+## Le jour J :
 
 - **Installation :** l'animatrice et l'espace arrive sur le lieu de l'anniversaire une heure avant pour transformer votre espace avec le thème choisi.
 
-- **Accueil des invités :** découverte de l'espace de jeu.
+- **Déroulé de l'anniversaire :** après la découverte de l'espace de jeu, les enfants se déguisent et le jeu démarre naturellement dans le thème choisi.  
+Le jeu est libre pour permettre aux enfants de profiter pleinement de l'espace et de ses histoires.   
+En complément du décor sont proposés aux enfants 3 grands jeux en bois qui s'apparente au thème.   
+L'animatrice assure le bon déroulé du jeu.
 
-- **Grand jeu :** chasse au trésors, concours du meilleur gateau... , les enfants sont conviés à participer à un grand jeu en rapport avec le thème et dirigé par l'animatrice.
-
-- **Jeu libre :** grand moment de jeu libre pour permettre aux enfants de profiter pleinement de l'espace et de ses histoires.
-
-L'animation dure entre 2h30 et 3h, le goûter n'est pas fourni mais le temps du gâteau peut être intégré à un moment souhaité.
+L'animation dure entre 2h30 et 3h, le goûter n'est pas fourni mais le temps du gâteau est à intégrer à un moment souhaité.
 
 # Tarifs
 
-Le tarif est de 280 euros pour un groupe jusqu'à 10 enfants.   
+Le tarif est de **190 euros pour un groupe jusqu'à 10 enfants.**   
 +15 euros par enfants supplémentaires.
+
+**Ce tarif comprend :**   
+ - Une invitation théatisée à imprimer  
+ - La décoration thématisée de la table de goûter
+
+# En option :
+
+**Grand jeu :** une chasse au trésor confectionnée sur mesure pour votre enfant et ses invités sur le lieu d'anniversaire et les alentours. -> **80 euros**
+
+**Loisirs créatifs :** animation de loisirs créatif en rapport avec l'univers choisi. La création d’un accessoire de déguisement ou de décor que les enfants pourront ramener chez eux en souvenir. -> **80 euros**
