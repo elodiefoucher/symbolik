@@ -35,8 +35,8 @@ carousselsm:
     lien: "/catalogue/cirque"
 offres:
   - nom: "Professionnels"
-    intro: "Manifestation, festival, structure d'accueil"
-    description: "Enrichissez votre panel d’activité avec un espace de jeu original pour l’enfant."
+    intro: "Manifestations, festivals, structures d'accueil"
+    description: "Enrichissez votre panel d’activités avec un espace de jeu original pour l’enfant."
     icon: "/img/icon-agenda.png"
   - nom: "Particuliers"
     intro: "Anniversaires, mariages, fêtes de famille"

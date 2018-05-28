@@ -11,14 +11,14 @@ Proposez une activité ludique et originale dans votre événement avec un espac
 
 # Déroulement d'une prestation :
 
-- **Installation :** L'animatrice et l'espace arrive sur le lieu une heure avant le début de l'événement pour transformer l'espace.  
+- **Installation :** L'animatrice et l'espace arrivent sur le lieu une heure avant le début de l'événement pour transformer l'espace.  
 
 - **Accueil des enfants :** les enfants entrent dans l'espace en se déguisant, puis ils découvrent les éléments de décors, les accessoires, et le jeu démarre naturellement.  
 Le jeu est libre pour permettre aux enfants de profiter pleinement de l'espace et de ses histoires.   
 L'animatrice assure le bon déroulé du jeu.
 
 **En option :**   
-**Animation loisirs créatif en rapport avec le thème :** création d'accessoires de déguisement et/ou de décor que les enfants peuvent intégrer dans l'espace de jeu. Les créations sont à ramener à la maison pour prolonger le jeu.
+**Animation loisirs créatifs en rapport avec le thème :** création d'accessoires de déguisement et/ou de décors que les enfants peuvent intégrer dans l'espace de jeu. Les créations sont à ramener à la maison pour prolonger le jeu.
 
 # Tarifs
 

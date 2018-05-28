@@ -18,7 +18,7 @@ voiraussi:
     img: "/img/cirque-titre.jpg"
     age: "de 3 à 8 ans"
 age: "dès 18 mois, jusqu'à 6 ans"
-description: "Un refuge de gourmandise s'offre aux plus petits !<br>Ils entrent dans une cuisine à leur échelle pour concocter des desserts colorés et sucrés avec des fruits et des patisseries gourmandes.<br>Ustensiles, plats, produits frais, tout est là pour les meilleures recettes !"
+description: "Un refuge de gourmandise s'offre aux plus petits !<br>Ils entrent dans une cuisine à leur échelle pour concocter des desserts colorés et sucrés avec des fruits et des pâtisseries gourmandes.<br>Ustensiles, plats, produits frais, tout est là pour les meilleures recettes !"
 superficie: "20 m²"
 preference: "Intérieur ou extérieur"
 nombre: "10"
@@ -50,7 +50,7 @@ carousselnu:
     img: "/img/gourmandise-frigo-cafetiere.jpg"
   - nom: "Le four et l'évier"
     img: "/img/gourmandise-four-evier.jpg"
-  - nom: "Glaces et patisserie"
+  - nom: "Glaces et pâtisserie"
     img: "/img/gourmandise-glace.jpg"  
 carousselnusm:
   - nom: "Le plan de travail"
