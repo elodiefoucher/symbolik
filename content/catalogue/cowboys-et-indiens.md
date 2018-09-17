@@ -44,6 +44,8 @@ carousselenjeusm:
     img: "/img/western-sm-en-jeu-4.jpg"
   - nom: "PSL Montchat - Stage Gym - Multi-activités"
     img: "/img/western-sm-en-jeu-5.jpg"
+  - nom: "PSL Montchat - Stage Gym - Multi-activités"
+    img: "/img/western-sm-en-jeu-5.jpg"
 carousselnu:
   - nom: "Le Saloon"
     img: "/img/western-espace-saloon.jpg"
