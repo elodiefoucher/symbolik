@@ -1,9 +1,9 @@
 ---
 title: "Catalogue"
 titleimg:
-  - "/img/titre-gourmandise.png"
-  - "/img/titre-cirque.png"
-  - "/img/titre-pirates.png"
+  - "/img/gourmandise-titre.png"
+  - "/img/cirque-titre.png"
+  - "/img/pirates-titre.png"
 
 ---
 title: ""
