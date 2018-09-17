@@ -1,7 +1,7 @@
 ---
 title: "Cowboys & Indiens"
 espace: "oui"
-lien: "/western"
+lien: "/cowboys-et-indiens"
 banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
 titleimg: "/img/western-titre.png"
@@ -15,7 +15,7 @@ voiraussi:
     lien: "/catalogue/gourmandise"
     img: "/img/gourmandise-vignette.jpg"
     age: "dès 18 mois, jusqu'à 6 ans"
-age: "de 5 à 12 ans"
+age: "à partir de 5 ans"
 description: "Le Far West, ses terres arides et ses légendes.<br>Retrouvez ici les éléments de décors des plus grands westerns :<br> saloon, village indien, totem et même une véritable charette pour arpenter les vastes plaines !"
 superficie: "50 m²"
 preference: "Extérieur"

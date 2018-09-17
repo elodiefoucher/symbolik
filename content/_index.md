@@ -14,6 +14,9 @@ caroussel:
   - nom: "Espace cirque"
     img: "/img/cirque-en-jeu.jpg"
     lien: "/catalogue/cirque"
+  - nom: "Espace Cowboys et Indiens"
+    img: "/img/western-en-jeu.jpg"
+    lien: "/catalogue/cowboys-et-indiens"
 carousselsm:
   - nom: "Pirates"
     img: "/img/pirates-sm-en-jeu-2.jpg"
