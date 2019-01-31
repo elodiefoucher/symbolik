@@ -20,6 +20,8 @@ L'animatrice assure le bon déroulé du jeu.
 **En option :**   
 **Animation loisirs créatifs en rapport avec le thème :** création d'accessoires de déguisement et/ou de décors que les enfants peuvent intégrer dans l'espace de jeu. Les créations sont à ramener à la maison pour prolonger le jeu.
 
+- [**téléchargez notre dossier de diffusion**](/doc/l-espace-d-un-jeu.pdf)
+
 # Tarifs
 
 Contactez-nous, nous effectuons un devis sur mesure pour votre événement !
