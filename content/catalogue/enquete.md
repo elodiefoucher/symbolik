@@ -11,7 +11,7 @@ voiraussi:
     lien: "/catalogue/pirates"
     img: "/img/pirates-vignette.jpg"
     age: "à partir de 5 ans"
-  - espace: "Cowboys & Indiens"
+  - espace: "Western"
     lien: "/catalogue/western"
     img: "/img/western-vignette.jpg"
     age: "à partir de 5 ans"

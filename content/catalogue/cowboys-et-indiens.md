@@ -1,7 +1,7 @@
 ---
-title: "Cowboys & Indiens"
+title: "Western"
 espace: "oui"
-lien: "/cowboys-et-indiens"
+lien: "/western"
 banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
 titleimg: "/img/western-titre.png"
