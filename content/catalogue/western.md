@@ -58,7 +58,7 @@ carousselnu:
 carousselnusm:
   - nom: "Le saloon"
     img: "/img/western-sm-espace-saloon.jpg"
-  - nom: "Le villages des Indiens"
+  - nom: "Le village des Indiens"
     img: "/img/western-sm-espace-indiens.jpg"
   - nom: "La charette"
     img: "/img/western-sm-espace-charette.jpg"

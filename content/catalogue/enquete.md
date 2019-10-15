@@ -20,7 +20,7 @@ description: "Une plongée au coeur du monde des détectives.<br>Dans une ambian
 superficie: "30 m²"
 preference: "Intérieur/Extérieur"
 nombre: "10"
-prixlocation: "300"
+prixlocation: "330"
 prixmanifpro: "500"
 prixmanifpart: "500"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
