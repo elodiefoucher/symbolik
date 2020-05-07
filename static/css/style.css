@@ -295,17 +295,6 @@ a:active {
 }
 /* Catalogue single */
 
-@media (max-width: 576px) {
- .responsive-l {
-   display: none;
- }
-}
-
-@media (min-width: 768px) {
- .responsive-sm {
-   display: none;
- }
-}
 .catalogue-age {
   font-weight: 100;
   font-size: 1.4rem;
@@ -867,4 +856,16 @@ input {
 .responsive-l-f {
   display: none;
 }
+}
+
+@media (max-width: 576px) {
+ .responsive-l {
+   display: none;
+ }
+}
+
+@media (min-width: 768px) {
+ .responsive-sm {
+   display: none;
+ }
 }

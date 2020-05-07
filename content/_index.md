@@ -4,6 +4,13 @@ subtitle: "Location et création d'espaces de jeux symboliques"
 description2: "Jouer au papa et à la maman, jouer au docteur, à la cuisine ou aux cowboys : les jeux d’imitation entrent très tôt dans la vie d’un enfant et l’accompagnent dans son développement."
 description3: "Symbolik propose aux enfants de se plonger dans ses univers singuliers et poétique ! Réalistes ou fantasques, les univers s'adaptent à l'âge pour laisser la liberté à l'imaginaire de se développer."
 description: "Très jeune, par l'imitation, l'enfant utilise naturellement le jeu symbolique pour développer sa motricité, apprendre les gestes du quotidien et les expérimenter. Le symbolique lui sert à comprendre le monde dans lequel il vit."
+catchlinetitre1: "UNE OFFRE LUDIQUE ORIGINALE"
+catchline1: "A mi-chemin entre le spectacle et le jeu, les espaces de jeux Symbolik permettent aux enfants de rentrer dans un univers et de créer leurs propres histoires"
+catchlinetitre2: "UN MISE EN PLACE ATTRACTIVE"
+image2: "/img/index-1.jpg"
+catchlinetitre3: "UNE EXPÉRIENCE MARQUANTE"
+catchline3: "« Un décor rien qu’à nous où on peut tout prendre pour jouer ?! »
+Les enfants en parlent longtemps après !"
 caroussel:
   - nom: "Espace pirates"
     img: "/img/pirates-en-jeu.jpg"
@@ -48,9 +55,6 @@ carousselsm:
   - nom: "Espace Cowboys et Indiens"
     img: "/img/western-sm-en-jeu-2.jpg"
     lien: "/catalogue/cowboys-et-indiens"
-  - nom: "Espace Enquête"
-    img: "/img/enquête-sm-en-jeu.jpg"
-    lien: "/catalogue/enquete"
 offres:
   - nom: "Professionnels"
     intro: "Manifestations, festivals, structures d'accueil"
