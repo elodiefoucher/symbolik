@@ -13,7 +13,7 @@
   background-color: rgb(6,163,6)
 }
 .green-light {
-  background-color: rgb(237,248,248)
+  background-color: rgb(227,238,238)
 }
 .green-dark {
   background-color: rgb(25,81,1)
@@ -35,6 +35,12 @@
 }
 .text-center {
   text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
 }
 .uppercase {
   text-transform: uppercase;
@@ -65,6 +71,7 @@
 }
 .row {
   padding:0;
+  margin:0;
 }
 p {
   font-weight: 200;
@@ -144,63 +151,16 @@ a:active {
      margin: auto;
      position: relative;
  }
-
- .cardindex {
-     width: 100%;
-     height: 100%;
-     -o-transition: all .8s;
-     -ms-transition: all .8s;
-     -moz-transition: all .8s;
-     -webkit-transition: all .8s;
-     transition: all .8s;
-     -webkit-backface-visibility: hidden;
-     -ms-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     backface-visibility: hidden;
-     position: absolute;
-     top: 0px;
-     left: 0px;
-     border: none;
- }
-
- .front {
-     z-index: 2;
- }
-
- .back {
-     z-index: 1;
-     -webkit-transform: rotateY(-180deg);
-     -ms-transform: rotateY(-180deg);
-     -moz-transform: rotateY(-180deg);
-     transform: rotateY(-180deg);
- }
-
- .panel:hover .front {
-     z-index: 1;
-     -webkit-transform: rotateY(180deg);
-     -ms-transform: rotateY(180deg);
-     -moz-transform: rotateY(180deg);
-     transform: rotateY(180deg);
- }
-
- .panel:hover .back {
-     z-index: 2;
-     -webkit-transform: rotateY(0deg);
-     -ms-transform: rotateY(0deg);
-     -moz-transform: rotateY(0deg);
-     transform: rotateY(0deg);
- }
- @media (max-width: 576px) {
-  .rotate {
-      transform: rotate(90deg);
-      width: 15%;
-  }
+ .no-padding {
+ padding-right:0;
+ padding-left:0;
  }
 
  .index h1 {
    color: black;
-   font-size: 2.3rem;
-   padding-top: 4rem;
+   font-size: 2.2rem;
+   padding-top: 2rem;
+   padding-left: 4rem;
    font-weight: 200;
  }
 
@@ -211,7 +171,37 @@ a:active {
    color: silver;
    font-weight: 200;
    padding-top: 0.5rem;
+   padding-left: 4rem;
 }
+
+.index-h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 0.5px;
+  text-align: center;
+}
+
+.index-logo {
+  margin-top:8rem;
+  padding-left:4rem;
+  width: 65%;
+}
+
+.index-section2-title h2 {
+  color: rgb(30,122,130);
+  font-weight: 400;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.index-section2-image {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
 .citation {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -238,48 +228,6 @@ a:active {
     text-align: center;
 }
 
-.image {
-    width: 100%;
-    height: 100%;
-}
-
-.image img {
-    -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-}
-
-.image:hover img {
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-     transform:scale(1.1);
-}
-
-.index-h1 {
-  text-transform: uppercase;
-  font-weight: 300;
-  margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: solid 0.5px;
-  text-align: center;
-}
-@media (max-width: 576px) {
-.index-h1 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-}
-
-@media (min-width: 768px) {
-  .index-h1 {
-    margin-left: 13rem;
-    margin-right: 13rem;
-  }
-}
 .link-catalogue h2 {
   font-size: 1.4rem;
   text-align: center;

@@ -1,36 +1,47 @@
 {{ define "main" }}
-<section class="container">
-  <div class="text-center index">
-    <img src="/img/logo-rond-bleu.png" alt="Symbolik" width="200rem" style="margin:2rem">
+<section>
+  <div class="row index">
+    <div class="col-lg-6 col-md-6 col-sm-12 no-padding text-center">
+      <img src="/img/logo-long-sans.png" alt="Symbolik" class="index-logo">
+      <h1>Location et animation d'espaces de jeux thématisés</h1>
+      <h2>Manifestations, festivals, structures d'accueil <br>Anniversaires, mariages, fêtes de familles</h2>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 no-padding text-right">
+        <img src="/img/accueil-essai5.jpg" alt="Symbolik" width="90%" style="margin-top:4rem">
+    </div>
+
   </div>
 </section>
-<!--    <img src="/img/logo-minimaliste.png" alt="Symbolik" width="60rem" style="margin-top:3rem">
-<!--      <h1>Location et animation d'espaces de jeux thématisés</h1>
-      <h2>Manifestations, festivals, structures d'accueil <br>Anniversaires, mariages, fêtes de familles</h2>-->
-<section>
+<br>
+<br><br>
+<section class="green-light">
   <div class="container">
-    <div class="row text-center citation">
-      <div class="col">
-        {{ .Params.catchlinetitre2 }}
-        <br>
-        {{ .Params.catchline1 }}
-        <br>
+    <div class="row text-center index-section2-title">
+      <div class="col-lg-4 col-md-4 col-sm-12 align-items-stretch col-centered">
+        <h2>{{ .Params.catchlinetitre1 }}</h2>
+        <img src="{{ .Params.image1 }}" alt="" width="90%" class="index-section2-image">
+
       </div>
-      <div class="col">
-        {{ .Params.catchlinetitre1 }}
-        <br>
-        {{ .Params.catchline1 }}
+      <div class="col-lg-4 col-md-4 col-sm-12 align-items-stretch col-centered">
+        <h2>{{ .Params.catchlinetitre2 }}</h2>
+        <img src="{{ .Params.image2 }}" alt="" width="90%" class="index-section2-image">
+
       </div>
-      <div class="col">
-        {{ .Params.catchlinetitre3 }}
-        <br>
-        {{ .Params.catchline3 }}
+      <div class="col-lg-4 col-md-4 col-sm-12 align-items-stretch col-centered">
+    <h2>{{ .Params.catchlinetitre3 }}</h2>
+        <img src="{{ .Params.image3 }}" alt="" width="90%" class="index-section2-image">
+
       </div>
     </div>
   </div>
 </section>
 
-<section class="container citation-padding">
+<section>
+  <div class="index">
+    <h1>Catalogue</h1>
+  </div>
+</section>
+<!--<section class="container citation-padding">
   <div class="row justify-content-md-center">
   <div class="col col-lg-2 text-center">
     <img src="/img/guillemet-g.png" alt="guillemet" width="80" class="rotate">
@@ -42,10 +53,10 @@
     <img src="/img/guillemet-d.png" alt="guillemet" width="80" class="rotate">
   </div>
 </div>
-</section>
+</section>-->
 
 <section class="container padding-top-bot-5">
-  <h1 class="index-h1">Nos offres adaptées</h1>
+  <h3 class="index-h1">Nos offres adaptées</h3>
   <div class="row">
     {{ range .Params.offres }}
     <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">

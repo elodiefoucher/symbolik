@@ -6,9 +6,11 @@ description3: "Symbolik propose aux enfants de se plonger dans ses univers singu
 description: "Très jeune, par l'imitation, l'enfant utilise naturellement le jeu symbolique pour développer sa motricité, apprendre les gestes du quotidien et les expérimenter. Le symbolique lui sert à comprendre le monde dans lequel il vit."
 catchlinetitre1: "UNE OFFRE LUDIQUE ORIGINALE"
 catchline1: "A mi-chemin entre le spectacle et le jeu, les espaces de jeux Symbolik permettent aux enfants de rentrer dans un univers et de créer leurs propres histoires"
+image1: "/img/index1.png"
 catchlinetitre2: "UN MISE EN PLACE ATTRACTIVE"
-image2: "/img/index-1.jpg"
+image2: "/img/index2.png"
 catchlinetitre3: "UNE EXPÉRIENCE MARQUANTE"
+image3: "/img/index3.png"
 catchline3: "« Un décor rien qu’à nous où on peut tout prendre pour jouer ?! »
 Les enfants en parlent longtemps après !"
 caroussel:
