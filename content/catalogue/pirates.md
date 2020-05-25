@@ -1,11 +1,11 @@
 ---
 title: "Pirates"
-espace: "oui"
+espace2: "oui"
 lien: "/pirates"
 banniere: "/img/pirates-catalogue.jpg"
 bannieresm: "/img/pirates-sm-catalogue.jpg"
-titleimg: "/img/pirates-titre.png"
-catalogueimg: "/img/pirates-vignette.jpg"
+titleimg: "/img/pirates-titre-a.png"
+catalogueimg: "/img/pirates-index-catalogue.jpg"
 voiraussi:
   - espace: "Western"
     lien: "/catalogue/western"

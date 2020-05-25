@@ -13,7 +13,6 @@ image2: "/img/index2.png"
 catchlinetitre3: "UNE EXPÉRIENCE"
 catchlinetitre3a: "MARQUANTE"
 image3: "/img/index3.png"
-
 caroussel:
   - nom: "Espace pirates"
     img: "/img/pirates-en-jeu.jpg"

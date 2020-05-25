@@ -1,11 +1,11 @@
 ---
 title: "Western"
-espace: "oui"
+espace2: "oui"
 lien: "/western"
 banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
-titleimg: "/img/western-titre.png"
-catalogueimg: "/img/western-vignette.jpg"
+titleimg: "/img/western-titre-a.png"
+catalogueimg: "/img/western-index-catalogue.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"

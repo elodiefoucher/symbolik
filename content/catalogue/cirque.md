@@ -1,11 +1,11 @@
 ---
 title: "Cirque"
-espace: "oui"
+espace1: "oui"
 lien: "/cirque"
 banniere: "/img/cirque-catalogue.jpg"
 bannieresm: "/img/cirque-sm-catalogue.jpg"
-titleimg: "/img/cirque-titre.png"
-catalogueimg: "/img/cirque-vignette.jpg"
+titleimg: "/img/cirque-titre-a.png"
+catalogueimg: "/img/cirque-index-catalogue.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"

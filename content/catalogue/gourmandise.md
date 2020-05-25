@@ -1,11 +1,11 @@
 ---
 title: "Gourmandise"
-espace: "oui"
+espace1: "oui"
 lien: "/gourmandise"
 banniere: "/img/gourmandise-catalogue.jpg"
 bannieresm: "/img/gourmandise-sm-catalogue.jpg"
 titleimg: "/img/gourmandise-titre.png"
-catalogueimg: "/img/gourmandise-vignette.jpg"
+catalogueimg: "/img/gourmandise-index-catalogue.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"

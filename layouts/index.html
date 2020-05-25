@@ -37,12 +37,45 @@
       </div>
     </div>
   </div>
+  <img src="/img/index-pointe.png" alt="" width="100%">
 </section>
 
-<section>
-  <div class="index">
+<section class="container">
+  <div class="indexsection3">
     <h1>Catalogue</h1>
+  <h2>de 2 à 6 ans</h2>
+<div class="row">
+  {{ range .Data.Pages }}
+  {{ if isset .Params "espace1" }}
+  <div class="col-lg-3 padding-top-bot-2 mx-auto text-center">
+    <div class="image">
+      <a href="/catalogue/{{ .Params.lien }}">
+        <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+        <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="90%" title="{{ .Params.title }}">
+        <p class="catalogue-age">{{ .Params.age }}</p>
+      </a>
+    </div>
+</div>
+{{ end }}
+{{ end }}
   </div>
+    <h2>à partir de 5 ans</h2>
+  <div class="row">
+    {{ range .Data.Pages }}
+    {{ if isset .Params "espace2" }}
+    <div class="col-lg-3 padding-top-bot-2 mx-auto text-center">
+      <div class="image">
+        <a href="/catalogue/{{ .Params.lien }}">
+          <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="90%" title="{{ .Params.title }}">
+          <p class="catalogue-age">{{ .Params.age }}</p>
+        </a>
+      </div>
+  </div>
+  {{ end }}
+  {{ end }}
+    </div>
+    </div>
 </section>
 <!--<section class="container citation-padding">
   <div class="row justify-content-md-center">
