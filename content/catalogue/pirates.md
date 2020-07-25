@@ -1,11 +1,13 @@
 ---
 title: "Pirates"
-espace2: "oui"
+espace: "oui"
+index: "3"
 lien: "/pirates"
 banniere: "/img/pirates-catalogue.jpg"
 bannieresm: "/img/pirates-sm-catalogue.jpg"
-titleimg: "/img/pirates-titre-a.png"
+titleimg: "/img/pirates-titre.png"
 catalogueimg: "/img/pirates-index-catalogue.jpg"
+agetitle: "à partir de 5 ans"
 voiraussi:
   - espace: "Western"
     lien: "/catalogue/western"

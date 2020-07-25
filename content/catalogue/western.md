@@ -1,10 +1,11 @@
 ---
 title: "Western"
-espace2: "oui"
+espace: "oui"
+index: "5"
 lien: "/western"
 banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
-titleimg: "/img/western-titre-a.png"
+titleimg: "/img/western-titre.png"
 catalogueimg: "/img/western-index-catalogue.jpg"
 voiraussi:
   - espace : "Pirates"
@@ -63,5 +64,16 @@ carousselnusm:
   - nom: "La charette"
     img: "/img/western-sm-espace-charette.jpg"
   - nom: "L'intérieur du saloon"
-    img: "/img/western-sm-espace-saloon-2.jpg"   
+    img: "/img/western-sm-espace-saloon-2.jpg"  
+swiper:
+  - img: "/img/western1.JPG"
+  - img: "/img/western2.JPG"
+  - img: "/img/western3.JPG"
+  - img: "/img/western4.JPG"
+  - img: "/img/western5.JPG"
+  - img: "/img/western6.JPG"
+  - img: "/img/western7.JPG"
+  - img: "/img/western8.JPG"
+  - img: "/img/western9.JPG"
+  - img: "/img/western10.JPG"
 ---

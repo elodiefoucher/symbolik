@@ -38,43 +38,112 @@
     </div>
   </div>
 </section>
-  <img src="/img/index-intro-catalogue.png" alt="" width="100%">
+
+<!--  <img src="/img/index-intro-catalogue.png" alt="" width="100%">-->
+
+  <section class=" padding-top-bot-5">
+    <h3 class="index-h1">Nos offres adaptées</h3>
+    <div class="row">
+      {{ range .Params.offres }}
+      <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
+        <div class="prestaaccueil">
+          <div class="icon">
+          <img src="{{ .Params.icon }}" alt="{{ .Title }}" width="60rem">
+          </div>
+          <div class="icon">
+          <img src="{{ .icon }}" alt="{{ .nom }}" width="60rem">
+          </div>
+         <h2 class="locationtitle">{{ .nom }}</h2>
+         <h3 class="locationintro">{{ .intro }}</h3>
+         <p class="locationcontent">{{ .description | markdownify }}</p>
+    </div>
+  </div>
+      {{ end }}
+    </div>
+</section>
+
 <section class="container">
   <div class="indexsection3">
     <h1>Catalogue</h1>
-  <h2>de 2 à 6 ans</h2>
+<div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12">
+    <h2>De 2 à 6 ans</h2>
+    <div class="row">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espacebb" }}
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="image">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="38rem" title="{{ .Params.title }}">
+            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12">
+    <h2>A partir de 5 ans</h2>
+    <div class="row">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="image">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="33rem" title="{{ .Params.title }}">
+            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex">
+      <h2>{{ .Params.responsabletitle }}</h2>
+      <img src="/img/icon-terre.png" alt="" width="20%">
+ </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
+      <p>{{ .Params.responsable | markdownify }}</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
+      <img src="" alt="">
+      <h2>{{ .Params.artisanattitle }}</h2>
+      <p>{{ .Params.artisanat | markdownify }}</p>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--<section class="container">
+  <div class="indexsection3">
+    <h1>Catalogue</h1>
 <div class="row">
   {{ range .Data.Pages }}
-  {{ if isset .Params "espace1" }}
-  <div class="col-lg-3 padding-top-bot-2 mx-auto text-center">
+  {{ if isset .Params "espace" }}
+  <h2>{{ .Params.agetitle}}</h2>
+  <div class="col-lg-2 col-md-3 col-sm-4 padding-top-bot-2 mx-auto text-center">
     <div class="image">
       <a href="/catalogue/{{ .Params.lien }}">
-        <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
-        <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="90%" title="{{ .Params.title }}">
+        <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" width="130%" title="{{ .Params.title }}">
+        <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="120%" title="{{ .Params.title }}">
       </a>
     </div>
 </div>
 {{ end }}
 {{ end }}
+</div>
   </div>
-    <h2>à partir de 5 ans</h2>
-  <div class="row">
-    {{ range .Data.Pages }}
-    {{ if isset .Params "espace2" }}
-    <div class="col-lg-3 padding-top-bot-2 mx-auto text-center">
-      <div class="image">
-        <a href="/catalogue/{{ .Params.lien }}">
-          <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
-          <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="90%" title="{{ .Params.title }}">
-        </a>
-      </div>
-  </div>
-  {{ end }}
-  {{ end }}
-    </div>
-    </div>
 </section>
-<!--<section class="container citation-padding">
+<section class="container citation-padding">
   <div class="row justify-content-md-center">
   <div class="col col-lg-2 text-center">
     <img src="/img/guillemet-g.png" alt="guillemet" width="80" class="rotate">
@@ -88,30 +157,6 @@
 </div>
 </section>-->
 
-<section class="container padding-top-bot-5">
-  <h3 class="index-h1">Nos offres adaptées</h3>
-  <div class="row">
-    {{ range .Params.offres }}
-    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
-      <div class="prestaaccueil">
-        <div class="icon">
-        <img src="{{ .Params.icon }}" alt="{{ .Title }}" width="60rem">
-        </div>
-        <div class="icon">
-        <img src="{{ .icon }}" alt="{{ .nom }}" width="60rem">
-        </div>
-       <h2 class="locationtitle">{{ .nom }}</h2>
-       <h3 class="locationintro">{{ .intro }}</h3>
-       <p class="locationcontent">{{ .description | markdownify }}</p>
-  </div>
-</div>
-    {{ end }}
-  </div>
-  <div class="link-catalogue text-center demande">
-    <a href="/catalogue"><button type="button" class="btn btn-light">Consultez notre catalogue</button></a>
 
-
-</div>
-</section>
 
 {{ end }}

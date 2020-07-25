@@ -63,6 +63,9 @@
 .padding-top-3 {
   padding-top: 3rem;
 }
+.margin-1 {
+  margin: 1rem;
+}
 .padding-3 {
   padding: 3rem;
 }
@@ -179,11 +182,15 @@ a:active {
 
 .index-h1 {
   text-transform: uppercase;
-  font-weight: 300;
+  background-color: rgb(30,122,130);
+  color: white;
+  font-weight: 400;
   margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: solid 0.5px;
-  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-right: 50%;
+  padding-left: 20%;
+  text-align: left;
 }
 
 .indexsection3 h1 {
@@ -220,7 +227,10 @@ a:active {
   padding-bottom: 2rem;
 }
 
-
+.containerimg {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .citation {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -266,11 +276,13 @@ a:active {
   font-weight: 100;
   font-size: 1.2rem;
   color: silver;
+  text-align: right;
 }
 @media (max-width: 576px) {
   .catalogue-age {
     font-weight: 400;
     font-size: 1.2rem;
+    text-align: right;
  }
 }
 
@@ -467,8 +479,8 @@ a:active {
 
 @media (min-width: 768px) {
   .titleimg {
-    width: 45%;
-    padding-top: 5rem;
+    width: 90%;
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
@@ -686,6 +698,32 @@ button:hover {
   text-align: center;
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.photoswiper {
+  height: 60%;
+}
 /* contact */
 @media (max-width: 576px) {
   .container-contact {

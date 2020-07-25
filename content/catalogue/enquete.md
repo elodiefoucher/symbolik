@@ -1,11 +1,12 @@
 ---
 title: "Enquête"
-espace2: "oui"
+espace: "oui"
+index: "4"
 lien: "/enquete"
 banniere: "/img/enquete-catalogue.jpg"
 bannieresm: "/img/enquete-sm-catalogue.jpg"
-titleimg: "/img/enquete-titre-a.png"
-catalogueimg: "/img/enquete-index-catalogue.jpg"
+titleimg: "/img/enquete-titre.png"
+catalogueimg: "/img/enquete-vignette.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"

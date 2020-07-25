@@ -12,7 +12,14 @@ catchlinetitre2a: "ATTRACTIVE"
 image2: "/img/index2.png"
 catchlinetitre3: "UNE EXPÉRIENCE"
 catchlinetitre3a: "MARQUANTE"
-image3: "/img/index3.png"
+image3: "/img/index3a.png"
+responsabletitle: "Une démarche responsable"
+responsable: "**Dans une industrie du jeu gourmande en énergie et en plastique, Symbolik met un point d’honneur à créer sans trop consommer.**<br>
+Les objets ludiques sont principalement  chinés, transformés ou fabriqués à partir de matériaux issus de la récupération : magasins de seconde main, brocantes, dons, invendus d’entreprise...<br>
+En choisissant des matériaux résistants, nous faisons le pari de la qualité et de la longévité des jouets."
+artisanattitle: "Une fabrication artisanale"
+artisanat: "Nos espaces sont conçus et réalisés dans nos ateliers de couture et de menuiserie à Caluire et Cuire près de Lyon.
+Chaque espace est une création unique pensée et construite pour favoriser le jeu et la créativité des enfants."
 caroussel:
   - nom: "Espace pirates"
     img: "/img/pirates-en-jeu.jpg"
