@@ -6,7 +6,7 @@ lien: "/gourmandise"
 banniere: "/img/gourmandise-catalogue.jpg"
 bannieresm: "/img/gourmandise-sm-catalogue.jpg"
 titleimg: "/img/gourmandise-titre.png"
-catalogueimg: "/img/gourmandise-index-catalogue.jpg"
+catalogueimg: "/img/gourmandise-index-catalogue2.jpg"
 agetitle: "de 2 à 6 ans"
 voiraussi:
   - espace : "Pirates"

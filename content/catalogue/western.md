@@ -6,7 +6,7 @@ lien: "/western"
 banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
 titleimg: "/img/western-titre.png"
-catalogueimg: "/img/western-index-catalogue.jpg"
+catalogueimg: "/img/western-index-catalogue-4.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"

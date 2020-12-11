@@ -203,9 +203,12 @@ a:active {
   font-size: 3rem;
 }
 .indexsection3 h2 {
-  text-align: left;
   font-weight: 500;
   color: silver;
+}
+
+.indextitleimg {
+  margin : 0.5rem;
 }
 
 .index-logo {
@@ -227,6 +230,9 @@ a:active {
   padding-bottom: 2rem;
 }
 
+.index-section4 {
+  margin: 1;
+}
 .containerimg {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -234,8 +240,9 @@ a:active {
 .citation {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 200;
-  font-size: 1.2rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: center;
 }
 @media (max-width: 576px) {
   .citation-padding {
@@ -272,9 +279,36 @@ a:active {
 }
 /* Catalogue single */
 
+.swiper-container {
+  width: 100%;
+  height: 30%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 50%;
+}
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .catalogue-age {
   font-weight: 100;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: silver;
   text-align: right;
 }
@@ -300,11 +334,9 @@ a:active {
 
 @media (max-width: 576px) {
   .catalogue-description {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: 1.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -473,7 +505,7 @@ a:active {
 
 @media (max-width: 576px) {
   .titleimg {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -481,7 +513,8 @@ a:active {
   .titleimg {
     width: 90%;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    text-align: right;
+
   }
 }
 
@@ -698,29 +731,6 @@ button:hover {
   text-align: center;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
 .photoswiper {
   height: 60%;
 }

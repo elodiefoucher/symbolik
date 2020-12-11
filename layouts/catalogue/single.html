@@ -1,13 +1,14 @@
 {{ define "main" }}
 <!--<img src="{{ .Params.banniere }}" alt="{{ .Params.title }}" width="100%" class="responsive-l">-->
+
 <section>
   <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-lg-6 col-md-6 col-sm-12">
       <img class="titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}">
       <p class="catalogue-age">{{ .Params.age }}</p>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-md-6 col-sm-12">
       {{ if isset .Params "espace" }}
     <p class="catalogue-description lead">{{ .Params.description | markdownify }}</p>
     {{ end }}
@@ -20,39 +21,22 @@
 <section>
   <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
+        <div class="swiper-slide"><img src="/img/western1.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western2.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western3.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western4.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western5.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western6.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western7.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western8.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western9.JPG" alt=""></div>
+        <div class="swiper-slide"><img src="/img/western10.JPG" alt=""></div>
       </div>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        spaceBetween: 30,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
-    </script>
+  </div>
+  <div class="swiper-pagination"></div>
 </section>
 
-<section class="container padding-top-bot-2 responsive-l">
+<!--<section class="container padding-top-bot-2 responsive-l">
   <h1 class="catalogue-h1">L'espace en jeu</h1>
   <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -147,8 +131,13 @@
   </a>
 </div>
 </div>
-</section>
+</section>-->
 
+<section class="container">
+  <p>A partir de {{ .Params.age }}</p>
+  <p>Jusqu'à {{ .Params.nombre }} enfants dans l'espace de jeux</p>
+  {{ .Content }}
+</section>
 <section class="container padding-top-bot-2">
   <h1 class="catalogue-h1">Informations techniques</h1>
   <ul class="catalogue-ul">

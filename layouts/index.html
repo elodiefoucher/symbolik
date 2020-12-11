@@ -40,9 +40,103 @@
 </section>
 
 <!--  <img src="/img/index-intro-catalogue.png" alt="" width="100%">-->
+<section class="container">
+  <div class="citation citation-padding">
+    <p>Un décor qui s'installe chez vous</p>
+    <p>pour le plus grand plaisir de vos enfants !</p>
+  </div>
+</section>
+
+<section class="container">
+ <div class="indexsection3">
+   <div class="row">
+
+ <div class="col-lg-6 col-md-12 col-sm-12">
+<div class="text-right">
+     <h2>A partir de 5 ans</h2>
+</div>
+   <div class="row">
+     {{ range .Data.Pages }}
+     {{ if isset .Params "espace" }}
+       <div class="padding-top-1-2">
+         <a href="/catalogue/{{ .Params.lien }}">
+           <!--<div class="indextitleimg">
+             <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+           </div>-->
+             <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+         </a>
+       </div>
+     {{ end }}
+     {{ end }}
+     </div>
+   </div>
+   <div class="col-lg-6 col-md-12 col-sm-12">
+     <div class="text-left">
+          <h2>Dès 2 ans</h2>
+     </div>
+     <div class="row">
+       {{ range .Data.Pages }}
+       {{ if isset .Params "espacebb" }}
+         <div class="padding-top-1-2">
+           <a href="/catalogue/{{ .Params.lien }}">
+            <!-- <div class="text-right">
+                <div class="indextitleimg">
+               <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+              </div>
+             </div>-->
+             <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+           </a>
+         </div>
+       {{ end }}
+       {{ end }}
+     </div>
+   </div>
+ </div>
+</div>
+</section>
+
+ <!--<section class="container">
+  <div class="indexsection3">
+    <div class="row">
+  <div class="col-lg-6 col-md-12 col-sm-12">
+    <h2>Dès 2 ans</h2>
+    <div class="row">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espacebb" }}
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="image">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12">
+    <h2>A partir de 5 ans</h2>
+    <div class="row">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="image">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+</section>-->
 
   <section class=" padding-top-bot-5">
-    <h3 class="index-h1">Nos offres adaptées</h3>
+<!--    <h3 class="index-h1">Nos offres adaptées</h3>-->
     <div class="row">
       {{ range .Params.offres }}
       <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
@@ -62,66 +156,38 @@
     </div>
 </section>
 
-<section class="container">
-  <div class="indexsection3">
-    <h1>Catalogue</h1>
-<div class="row">
-  <div class="col-lg-6 col-md-12 col-sm-12">
-    <h2>De 2 à 6 ans</h2>
-    <div class="row">
-      {{ range .Data.Pages }}
-      {{ if isset .Params "espacebb" }}
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="image">
-          <a href="/catalogue/{{ .Params.lien }}">
-            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="38rem" title="{{ .Params.title }}">
-            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
-          </a>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-  <div class="col-lg-6 col-md-12 col-sm-12">
-    <h2>A partir de 5 ans</h2>
-    <div class="row">
-      {{ range .Data.Pages }}
-      {{ if isset .Params "espace" }}
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <div class="image">
-          <a href="/catalogue/{{ .Params.lien }}">
-            <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="33rem" title="{{ .Params.title }}">
-            <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
-          </a>
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</div>
-</section>
 
-<section class="container">
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex">
+<section class="container index-section4">
+  <div class="row justify-content-around">
+    <div class="col-lg-5 col-md-6 col-sm-12 text-center">
       <h2>{{ .Params.responsabletitle }}</h2>
       <img src="/img/icon-terre.png" alt="" width="20%">
- </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
       <p>{{ .Params.responsable | markdownify }}</p>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
-      <img src="" alt="">
+    <div class="col-lg-5 col-md-6 col-sm-12 text-center">
       <h2>{{ .Params.artisanattitle }}</h2>
+      <img src="/img/icon-ciseaux.png" alt="" width="20%">
       <p>{{ .Params.artisanat | markdownify }}</p>
-
     </div>
   </div>
 </section>
 
-
+<!--<section>
+  <div class="row">
+    <div class="text-center">
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <h2>{{ .Params.responsabletitle }}</h2>
+        <img src="/img/icon-terre.png" alt="" width="20%">
+ <p>{{ .Params.responsable | markdownify }}</p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <h2>{{ .Params.artisanattitle }}</h2>
+    <img src="/img/icon-ciseaux.png" alt="" width="20%">
+    <p>{{ .Params.artisanat | markdownify }}</p>
+  </div>
+</div>
+    </div>
+</section>-->
 
 <!--<section class="container">
   <div class="indexsection3">

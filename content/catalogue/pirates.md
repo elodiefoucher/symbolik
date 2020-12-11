@@ -6,7 +6,7 @@ lien: "/pirates"
 banniere: "/img/pirates-catalogue.jpg"
 bannieresm: "/img/pirates-sm-catalogue.jpg"
 titleimg: "/img/pirates-titre.png"
-catalogueimg: "/img/pirates-index-catalogue.jpg"
+catalogueimg: "/img/pirates-index-catalogue2.jpg"
 agetitle: "à partir de 5 ans"
 voiraussi:
   - espace: "Western"
@@ -73,3 +73,9 @@ carousselnusm:
   - nom: "Le trésor"
     img: "/img/pirates-sm-espace-tresor.jpg"    
 ---
+Le décor comprend :
+  - Un espace bateau pour naviguer avec vigi, gouvernail, drapeau à hisser
+  - Une île déserte
+  - Une cabane
+  - Une valise plein d'accessoire : déguisements, armes, trésors, ...
+  - Un porte manteau

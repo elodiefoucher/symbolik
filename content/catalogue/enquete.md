@@ -6,7 +6,7 @@ lien: "/enquete"
 banniere: "/img/enquete-catalogue.jpg"
 bannieresm: "/img/enquete-sm-catalogue.jpg"
 titleimg: "/img/enquete-titre.png"
-catalogueimg: "/img/enquete-vignette.jpg"
+catalogueimg: "/img/enquete-index-catalogue4.jpg"
 voiraussi:
   - espace : "Pirates"
     lien: "/catalogue/pirates"
