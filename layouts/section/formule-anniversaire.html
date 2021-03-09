@@ -1,0 +1,100 @@
+{{ define "main" }}
+<section class="container">
+ <div class="citation">
+   <div class="padding-top-bot-2">
+     <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
+   </div>
+   <p>{{ .Params.intro }}</p>
+ </div>
+</section>
+    <section class="padding-top-bot-2">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {{ range .Params.slider }}
+            <div class="swiper-slide"><img src="{{ .img }}"></div>
+            {{ end }}
+            </div>
+
+          </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+
+<!--     <div class="row">
+   <div class="col-lg-5 col-md-5 col-sm-12 padding-0">
+     <img src="/img/pirates-13a.JPG" alt="anniversaire-pirates" width="100%">
+   </div>
+   <div class="col-lg-7 col-md-7 col-sm-12 text-center content">
+<table style="height: 100%; width: 100%">
+  <tbody>
+    <tr>
+      <td class="align-middle">
+     <p class="citation">{{ .Params.formule }}</p>
+     <ul class="mx-auto">
+       {{ range .Params.formuleanni }}
+       <li>{{ .txt }}</li>
+       {{ end }}
+     </ul>
+     <p class="bold">{{ .Params.prix }}</p>
+   </td>
+ </tr>
+</tbody>
+</table>
+   </div>
+ </div>
+-->
+<section class="container padding-top-bot-2">
+  <div class="content formule text-center">
+    <h2>{{ .Params.formule }}</h2>
+    <ul class="mx-auto">
+      {{ range .Params.formuleanni }}
+      <li>{{ .txt }}</li>
+      {{ end }}
+    </ul>
+    <p>{{ .Params.prix }}</p>
+</section>
+
+<section class="padding-top-bot-2">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 padding-0 text-right">
+      <img src="/img/western-12.jpg" alt="anniversaire-pirates" width="100%">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 content green-light">
+      <table style="height: 100%; width: 100%">
+        <tbody>
+          <tr>
+            <td class="align-middle">
+              {{ .Content | markdownify }}
+         </td>
+       </tr>
+      </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section>
+<div class="link-catalogue text-center demande">
+    <a href="/contact">
+      <button type="button" class="btn btn-light">Réservez un anniversaire</button></a>
+</div>
+</section>
+<section class="container padding-top-bot-2">
+      <div class="indexsection3">
+          <h2>Découvrez tous nos thèmes</h2>
+     </div>
+    <div class="row">
+      {{ range $.Site.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+        <div class="image padding-top-bot-1">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    </section>
+
+{{ end }}

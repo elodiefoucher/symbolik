@@ -1,0 +1,69 @@
+{{ define "main" }}
+<section class="container">
+ <div class="citation citation-padding">
+   <p>{{ .Params.intro }}</p>
+ </div>
+</section>
+    <section class="padding-top-bot-2">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {{ range .Params.slider }}
+            <div class="swiper-slide"><img src="{{ .img }}"></div>
+            {{ end }}
+            </div>
+
+          </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+<section class="container padding-top-bot-2">
+  <div class="content text-center">
+    <p class="citation">{{ .Params.formule }}</p>
+    <ul class="mx-auto">
+      {{ range .Params.formuleanni }}
+      <li>{{ .txt }}</li>
+      {{ end }}
+    </ul>
+    <p class="bold">{{ .Params.prix }}</p>
+
+
+<section class="container padding-top-bot-5">
+      <div class="indexsection3">
+          <h2>Découvrez tous nos thèmes</h2>
+     </div>
+    <div class="row">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+        <div class="image padding-top-bot-1">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+          </a>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    </section>
+
+
+  </div>
+</section>
+<br>
+ <div class="row">
+   <div class="col-lg-4 col-md-4 col-sm-12 padding-0 text-right">
+     <img src="/img/western-12.jpg" alt="anniversaire-pirates" width="100%">
+   </div>
+   <div class="col-lg-6 col-md-6 col-sm-12 content green-light">
+     <table style="height: 100%; width: 100%">
+       <tbody>
+         <tr>
+           <td class="align-middle">
+             {{ .Content | markdownify }}
+        </td>
+      </tr>
+     </tbody>
+     </table>
+   </div>
+ </div>
+</section>
+{{ end }}

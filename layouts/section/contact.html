@@ -1,13 +1,25 @@
 {{ define "main" }}
-<section class="content text-intro container">
-    <p>Pour un devis ou un renseignement, faites votre demande par mail,<br> nous vous recontactons rapidement<a href="mailto:contact@symbolik.fr"></p>contact@symbolik.fr<p></a></p>
-</section>
-<section class="content text-tel container">
-  <p>Pour tout complément d'information,<br> contactez Elodie au <span class="bold">{{ .Params.tel }}</span></p>
-</section>
-<!--<section>
-  <div class="container-contact content">
-     <form name="contact" method="POST" netlify>
+
+<section>
+  <div class="container-contact">
+    <div class="text-center">
+      <img src="/img/logo-long-sans.png" alt="Symbolik" class="logo-contact">
+      <div class="contact">
+        <br>
+        <p>Une question ? Une envie ? Un anniversaire à préparer ?</p>
+        <p>Contactez-nous, on vous répondra !</p>
+<br>
+<div class="contact-2">
+
+
+          <p class="bold"><a href="mailto:contact@symbolik.fr">contact@symbolik.fr</a></p>
+          <p>Ou par téléphone : Elodie au <span class="bold">{{ .Params.tel }}</span></p>
+        </div>
+        </div>
+      </div>
+    </div>
+<!--<div class="container-formulaire">
+       <form name="contact" method="POST" netlify>
   <div class="form-group">
     <label for="mail">Email</label>
     <input type="email" class="form-control" id="mail" name="email"   >
@@ -15,15 +27,15 @@
     <input type="tel" class="form-control" id="tel" name="telephone">
   </div>
   <div class="form-group">
-    <label for="content">Décrivez votre demande<br>
-    <small>Pour une demande de devis, pensez à préciser la date, la tranche d'âge et le nombre d'enfants attendus.</small></label>
+    <label for="content">Message</label>
     <textarea class="form-control" id="content" rows="5" name="message"></textarea>
   </div>
   <div class="envoyer">
     <button type="submit" class="btn btn-light">Envoyer</button>
   </div>
 </form>
-     </div>
-</section>-->
+</div>-->
+
+</section>
 
 {{ end }}

@@ -1,63 +1,32 @@
 ---
 title: "Cirque"
-espacebb: "oui"
+espace: "oui"
 lien: "/cirque"
-banniere: "/img/cirque-catalogue.jpg"
-bannieresm: "/img/cirque-sm-catalogue.jpg"
 titleimg: "/img/cirque-titre.png"
 catalogueimg: "/img/cirque-index-catalogue2.jpg"
-voiraussi:
-  - espace : "Pirates"
-    lien: "/catalogue/pirates"
-    img: "/img/pirates-vignette.jpg"
-    age: "à partir de 5 ans"
-  - espace: "Gourmandise"
-    lien: "/catalogue/gourmandise"
-    img: "/img/gourmandise-vignette.jpg"
-    age: "dès 18 mois, jusqu'à 6 ans"
+catalogueimgb: "/img/cirque-vignette.jpg"
 age: "de 3 à 8 ans"
 description: "Le cirque et ses numéros en tout genre !<br>Avec ses trois pistes et sa grande entrée, vos enfants plongent dans l'univers du cirque <br>et vous livrent des spectacles de haute voltige !<br>Dresseur, magicien, acrobate, clown, il y en a pour tous les talents !"
 superficie: "30 m²"
 preference: "Intérieur"
 nombre: "10"
-prixlocation: "330"
-prixmanifpro: "360"
-prixmanifpart: "360"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
-carousselenjeu:
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-en-jeu.jpg"
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-en-jeu-2.jpg"
-carousselenjeusm:
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-sm-en-jeu.jpg"
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-sm-en-jeu-2.jpg"
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-sm-en-jeu-3.jpg"
-  - nom: "Centre de loisirs de Vaugneray - 20 ans de la CCVL"
-    img: "/img/cirque-sm-en-jeu-4.jpg"
-carousselnu:
-  - nom: "Le décor"
-    img: "/img/cirque-espace-decor.jpg"
-  - nom: "Les chapeaux de clown et le dresseur"
-    img: "/img/cirque-espace-dresseur.jpg"
-  - nom: "Les tambours et le magicien"
-    img: "/img/cirque-espace-tambour.jpg"
-  - nom: "Le coin des acrobates"
-    img: "/img/cirque-espace-acrobate.jpg"     
-carousselnusm:
-  - nom: "Le décor"
-    img: "/img/cirque-sm-espace-decor.jpg"
-  - nom: "Le dresseur"
-    img: "/img/cirque-sm-espace-dresseur.jpg"
-  - nom: "Le magicien"
-    img: "/img/cirque-sm-espace-magicien.jpg"
-  - nom: "Le coin des acrobates"
-    img: "/img/cirque-sm-espace-acrobate.jpg"   
-  - nom: "Les accessoires"
-    img: "/img/cirque-sm-espace-accessoires.jpg"
-  - nom: "Les tambours"
-    img: "/img/cirque-sm-espace-tambour.jpg"
+slider:
+  - img: "/img/cirque-1.JPG"
+  - img: "/img/cirque-2.JPG"
+  - img: "/img/cirque-3.JPG"
+  - img: "/img/cirque-4.JPG"
+  - img: "/img/cirque-5.JPG"
+  - img: "/img/cirque-6.JPG"
+  - img: "/img/cirque-7.JPG"
+  - img: "/img/cirque-8.JPG"
+  - img: "/img/cirque-9.JPG"
+  - img: "/img/cirque-10.JPG"
 ---
+**Le décor comprend :**
+
+- Une entrée de cirque
+
+- 3 pistes de cirque
+
+- Du matériel de cirque (cerceaux, échasses, petits tapis...)

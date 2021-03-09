@@ -47,7 +47,112 @@
   </div>
 </section>
 
+<section class="padding-top-bot-2">
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {{ range .Params.slider }}
+        <div class="swiper-slide"><img src="{{ .img }}"></div>
+        {{ end }}
+        </div>
+
+      </div>
+  <div class="swiper-pagination"></div>
+</section>
+
 <section class="container">
+  <div class="citation citation-padding">
+<h2 class="">Des formules adaptées</h2>
+      <div class="row">
+        {{ range .Params.offres }}
+        <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
+          <div class="prestaaccueil">
+
+            <h3 class="locationintro">{{ .description | markdownify }}</h3>
+            <div class="icon">
+            <img src="{{ .icon }}" alt="{{ .nom }}" width="60rem">
+            </div>
+            <p class="locationcontent">{{ .intro }}</p>
+             <h2 class="locationtitle">{{ .nom }}</h2>
+      </div>
+    </div>
+        {{ end }}
+      </div>
+  </div>
+</section>
+
+<section class="container padding-top-bot-2">
+  <div class="indexsection3">
+      <h2>Des thèmes variés</h2>
+ </div>
+<div class="row">
+  {{ range .Data.Pages }}
+  {{ if isset .Params "espace" }}
+  <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+    <div class="image padding-top-bot-1">
+      <a href="/catalogue/{{ .Params.lien }}">
+        <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+      </a>
+    </div>
+</div>
+{{ end }}
+{{ end }}
+<!--<div class="swiper-container swiper-2">
+    <div class="swiper-wrapper">
+      {{ range .Data.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="swiper-slide"><img src="{{ .Params.catalogueimgb }}"></div>
+      {{ end }}
+      {{ end }}
+      </div>
+      <div class="swiper-button-prev"><img src="/img/icon-arrow-left.png" alt=""></div>
+      <div class="swiper-button-next"><img src="/img/icon-arrow-right.png" alt=""></div>
+    </div>
+<div class="swiper-pagination"></div>-->
+
+</section>
+
+<section class="index-section4 green-light text-center padding-top-bot-1">
+  <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
+  <div class="row justify-content-around">
+    <div class="col-lg-6 col-md-6 col-sm-12 ml-auto padding-l-r-2">
+      <h2>{{ .Params.responsabletitle }}</h2>
+          <p>{{ .Params.responsable | markdownify }}</p>
+        </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 ml-auto padding-l-r-2">
+      <h2>{{ .Params.artisanattitle }}</h2>
+          <p>{{ .Params.artisanat | markdownify }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+  <h2>Retrouvez nous sur instagram</h2>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text"></p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text"></p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text"></p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="container">
  <div class="indexsection3">
    <div class="row">
 
@@ -62,7 +167,7 @@
          <a href="/catalogue/{{ .Params.lien }}">
            <!--<div class="indextitleimg">
              <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
-           </div>-->
+           </div>
              <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
          </a>
        </div>
@@ -83,7 +188,57 @@
                 <div class="indextitleimg">
                <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
               </div>
-             </div>-->
+             </div>
+             <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+           </a>
+         </div>
+       {{ end }}
+       {{ end }}
+     </div>
+   </div>
+ </div>
+</div>
+</section>
+-->
+
+
+<!--<section class="container">
+ <div class="indexsection3">
+   <div class="row">
+
+ <div class="col-lg-6 col-md-12 col-sm-12">
+<div class="text-right">
+     <h2>A partir de 5 ans</h2>
+</div>
+   <div class="row">
+     {{ range .Data.Pages }}
+     {{ if isset .Params "espace" }}
+       <div class="padding-top-1-2">
+         <a href="/catalogue/{{ .Params.lien }}">
+           <div class="indextitleimg">
+             <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+           </div>
+             <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+         </a>
+       </div>
+     {{ end }}
+     {{ end }}
+     </div>
+   </div>
+   <div class="col-lg-6 col-md-12 col-sm-12">
+     <div class="text-left">
+          <h2>Dès 2 ans</h2>
+     </div>
+     <div class="row">
+       {{ range .Data.Pages }}
+       {{ if isset .Params "espacebb" }}
+         <div class="padding-top-1-2">
+           <a href="/catalogue/{{ .Params.lien }}">
+            <div class="text-right">
+                <div class="indextitleimg">
+               <img src="{{ .Params.titleimg }}" alt="{{ .Params.title }}" height="40rem" title="{{ .Params.title }}">
+              </div>
+             </div>
              <img src="{{ .Params.catalogueimg }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
            </a>
          </div>
@@ -135,42 +290,6 @@
 </div>
 </section>-->
 
-  <section class=" padding-top-bot-5">
-<!--    <h3 class="index-h1">Nos offres adaptées</h3>-->
-    <div class="row">
-      {{ range .Params.offres }}
-      <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
-        <div class="prestaaccueil">
-          <div class="icon">
-          <img src="{{ .Params.icon }}" alt="{{ .Title }}" width="60rem">
-          </div>
-          <div class="icon">
-          <img src="{{ .icon }}" alt="{{ .nom }}" width="60rem">
-          </div>
-         <h2 class="locationtitle">{{ .nom }}</h2>
-         <h3 class="locationintro">{{ .intro }}</h3>
-         <p class="locationcontent">{{ .description | markdownify }}</p>
-    </div>
-  </div>
-      {{ end }}
-    </div>
-</section>
-
-
-<section class="container index-section4">
-  <div class="row justify-content-around">
-    <div class="col-lg-5 col-md-6 col-sm-12 text-center">
-      <h2>{{ .Params.responsabletitle }}</h2>
-      <img src="/img/icon-terre.png" alt="" width="20%">
-      <p>{{ .Params.responsable | markdownify }}</p>
-    </div>
-    <div class="col-lg-5 col-md-6 col-sm-12 text-center">
-      <h2>{{ .Params.artisanattitle }}</h2>
-      <img src="/img/icon-ciseaux.png" alt="" width="20%">
-      <p>{{ .Params.artisanat | markdownify }}</p>
-    </div>
-  </div>
-</section>
 
 <!--<section>
   <div class="row">

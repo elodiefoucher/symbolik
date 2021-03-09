@@ -7,15 +7,7 @@ banniere: "/img/western-catalogue.jpg"
 bannieresm: "/img/western-sm-catalogue.jpg"
 titleimg: "/img/western-titre.png"
 catalogueimg: "/img/western-index-catalogue-4.jpg"
-voiraussi:
-  - espace : "Pirates"
-    lien: "/catalogue/pirates"
-    img: "/img/pirates-vignette.jpg"
-    age: "à partir de 5 ans"
-  - espace: "Gourmandise"
-    lien: "/catalogue/gourmandise"
-    img: "/img/gourmandise-vignette.jpg"
-    age: "dès 18 mois, jusqu'à 6 ans"
+catalogueimgb: "/img/western-vignette.jpg"
 age: "à partir de 5 ans"
 description: "Le Far West, ses terres arides et ses légendes.<br>Retrouvez ici les éléments de décors des plus grands westerns :<br> saloon, village indien, totem et même une véritable charette pour arpenter les vastes plaines !"
 superficie: "50 m²"
@@ -25,55 +17,39 @@ prixlocation: "430"
 prixmanifpro: "500"
 prixmanifpart: "500"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
-carousselenjeu:
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-en-jeu.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-en-jeu-2.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-en-jeu-3.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-en-jeu-4.jpg"
-carousselenjeusm:
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu-2.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu-3.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu-4.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu-5.jpg"
-  - nom: "PSL Montchat - Stage Gym - Multi-activités"
-    img: "/img/western-sm-en-jeu-5.jpg"
-carousselnu:
-  - nom: "Le Saloon"
-    img: "/img/western-espace-saloon.jpg"
-  - nom: "Le village des Indiens"
-    img: "/img/western-espace-indiens.jpg"
-  - nom: "L'intérieur du saloon"
-    img: "/img/western-espace-saloon-2.jpg"
-  - nom: "La charette"
-    img: "/img/western-espace-charette.jpg"     
-carousselnusm:
-  - nom: "Le saloon"
-    img: "/img/western-sm-espace-saloon.jpg"
-  - nom: "Le village des Indiens"
-    img: "/img/western-sm-espace-indiens.jpg"
-  - nom: "La charette"
-    img: "/img/western-sm-espace-charette.jpg"
-  - nom: "L'intérieur du saloon"
-    img: "/img/western-sm-espace-saloon-2.jpg"  
-swiper:
-  - img: "/img/western1.JPG"
-  - img: "/img/western2.JPG"
-  - img: "/img/western3.JPG"
-  - img: "/img/western4.JPG"
-  - img: "/img/western5.JPG"
-  - img: "/img/western6.JPG"
-  - img: "/img/western7.JPG"
-  - img: "/img/western8.JPG"
-  - img: "/img/western9.JPG"
-  - img: "/img/western10.JPG"
+slider:
+  - img: "/img/western-1.JPG"
+  - img: "/img/western-2.JPG"
+  - img: "/img/western-3.JPG"
+  - img: "/img/western-4.JPG"
+  - img: "/img/western-5.JPG"
+  - img: "/img/western-6.JPG"
+  - img: "/img/western-7.JPG"
+  - img: "/img/western-8.JPG"
+  - img: "/img/western-9.JPG"
+  - img: "/img/western-10.JPG"
+  - img: "/img/western-11.JPG"
 ---
+**Le décor comprend :**
+
+***Côté Cowboys :***
+
+- Une entrée de saloon avec bancs et portes battantes
+
+- 3 tables, 12 tabourets et un bar (intérieur du Saloon)
+
+- Déguisements et accessoires des Cowboys
+
+***Côté indien :***
+
+- Un totem
+
+- Un cactus
+
+- 1 grand tipi et 2 moyens tipis
+
+- Déguisements et accessoires des indiens
+
+***Et aussi :***
+
+- Une Charette couverte avec son cheval

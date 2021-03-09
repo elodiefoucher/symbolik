@@ -1,63 +1,55 @@
 ---
 title: "Gourmandise"
-espacebb: "oui"
+espace: "oui"
 index: "1"
 lien: "/gourmandise"
 banniere: "/img/gourmandise-catalogue.jpg"
 bannieresm: "/img/gourmandise-sm-catalogue.jpg"
 titleimg: "/img/gourmandise-titre.png"
 catalogueimg: "/img/gourmandise-index-catalogue2.jpg"
+catalogueimgb: "/img/gourmandise-vignette.jpg"
 agetitle: "de 2 à 6 ans"
-voiraussi:
-  - espace : "Pirates"
-    lien: "/catalogue/pirates"
-    img: "/img/pirates-vignette.jpg"
-    age: "à partir de 5 ans"
-  - espace: "Cirque"
-    lien: "/catalogue/cirque"
-    img: "/img/cirque-vignette.jpg"
-    age: "de 3 à 8 ans"
-age: "dès 18 mois, jusqu'à 6 ans"
+age: "de 2 à 6 ans"
 description: "Un refuge de gourmandise s'offre aux plus petits !<br>Ils entrent dans une cuisine à leur échelle pour concocter des desserts colorés et sucrés avec des fruits et des pâtisseries gourmandes.<br>Ustensiles, plats, produits frais, tout est là pour les meilleures recettes !"
 superficie: "20 m²"
 preference: "Intérieur ou extérieur"
 nombre: "10"
-prixlocation: "330"
-prixmanifpro: "360"
-prixmanifpart: "360"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
-carousselenjeu:
-  - nom: "Festival des musiques de Beauregard à Saint Genis Laval"
-    img: "/img/gourmandise-en-jeu.jpg"
-  - nom: "Festival des musiques de Beauregard à Saint Genis Laval"
-    img: "/img/gourmandise-en-jeu-2.jpg"
-  - nom: "Fête du centre social Eugénie Cotton"
-    img: "/img/gourmandise-en-jeu-3.jpg"
-carousselenjeusm:
-  - img: "/img/gourmandise-sm-en-jeu.jpg"
-  - img: "/img/gourmandise-sm-en-jeu-2.jpg"
-  - img: "/img/gourmandise-sm-en-jeu-3.jpg"
-  - img: "/img/gourmandise-sm-en-jeu-4.jpg"
-carousselnu:
-  - nom: "Le plan de travail"
-    img: "/img/gourmandise-espace-plan-travail.jpg"
-  - nom: "La cafetière et le frigo"
-    img: "/img/gourmandise-espace-frigo-cafetiere.jpg"
-  - nom: "Le four et l'évier"
-    img: "/img/gourmandise-espace-four-evier.jpg"
-  - nom: "Glaces et pâtisserie"
-    img: "/img/gourmandise-espace-glace.jpg"  
-carousselnusm:
-  - nom: "Le plan de travail"
-    img: "/img/gourmandise-sm-espace-plan-travail.jpg"
-  - nom: "La cafetière et le frigo"
-    img: "/img/gourmandise-sm-espace-frigo.jpg"
-  - nom: "Le four et l'évier"
-    img: "/img/gourmandise-sm-espace-four.jpg"
-  - nom: "Les fruits"
-    img: "/img/gourmandise-sm-espace-fruit.jpg"
-  - nom: "La table"
-    img: "/img/gourmandise-sm-espace-table.jpg"
-  - nom: "La tarte aux fruits"
-    img: "/img/gourmandise-sm-espace-tarte.jpg"    
+slider:
+  - img: "/img/gourmandise-1.JPG"
+  - img: "/img/gourmandise-2.JPG"
+  - img: "/img/gourmandise-3.JPG"
+  - img: "/img/gourmandise-4.jpg"
+  - img: "/img/gourmandise-5.JPG"
+  - img: "/img/gourmandise-6.JPG"
+  - img: "/img/gourmandise-7.JPG"
+  - img: "/img/gourmandise-8.JPG"
+  - img: "/img/gourmandise-9.jpg"
+  - img: "/img/gourmandise-10.JPG"
+  - img: "/img/gourmandise-11.jpg"
 ---
+**Le décor comprend :**
+
+- 2 cuisinières avec feux et fours
+
+- Un plan de travail
+
+- Un frigo
+
+- Un évier
+
+- Un congélateur pour les glaces
+
+- 2 tables et leurs chaises
+
+- Un placard de rangement
+
+- Un porte manteau
+
+- Tout le nécessaire à cuisiner (casseroles, poele, bol, ustensiles en bois, couvert...)
+
+- Des fruits et des patisseries en feutre ou feutrine de laine
+
+- Un nécessaire pour faire le ménage
+
+- Des déguisements de patissier(e)s

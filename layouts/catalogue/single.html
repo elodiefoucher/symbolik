@@ -5,8 +5,12 @@
   <div class="container">
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <img class="titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}">
-      <p class="catalogue-age">{{ .Params.age }}</p>
+      <div class="text-right">
+        <img class="titleimg" src="{{ .Params.titleimg }}" alt="{{ .Title }}">
+        <div class="catalogue-age">
+          <p>{{ .Params.age }}</p>
+        </div>
+      </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
       {{ if isset .Params "espace" }}
@@ -18,186 +22,52 @@
 
 </section>
 
-<section>
+<section class="padding-top-bot-2">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/img/western1.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western2.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western3.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western4.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western5.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western6.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western7.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western8.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western9.JPG" alt=""></div>
-        <div class="swiper-slide"><img src="/img/western10.JPG" alt=""></div>
+        {{ range .Params.slider }}
+        <div class="swiper-slide"><img src="{{ .img }}"></div>
+        {{ end }}
+        </div>
       </div>
-  </div>
   <div class="swiper-pagination"></div>
 </section>
 
-<!--<section class="container padding-top-bot-2 responsive-l">
-  <h1 class="catalogue-h1">L'espace en jeu</h1>
-  <div id="carouselenjeu" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    {{ range $index, $element :=  .Params.carousselenjeu }}
-    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
-      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-      <p><span class="carousel-text">{{ $element.nom }}</span></p>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-  <a class="carousel-control-prev" href="#carouselenjeu" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselenjeu" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</section>
-
-<section class="container padding-top-bot-2 responsive-sm">
-  <h1 class="catalogue-h1">L'espace en jeu</h1>
-  <div id="carouselenjeusm" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    {{ range $index, $element :=  .Params.carousselenjeusm }}
-    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
-      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
-    </div>
-    {{ end }}
-  </div>
-  <a class="carousel-control-prev" href="#carouselenjeusm" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselenjeusm" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</section>
-
-<section class="container padding-top-bot-2 responsive-l">
-  <h1 class="catalogue-h1">Les éléments de l'espace</h1>
-  <div class="carouselnu-padding">
-  <div id="carouselnu" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    {{ range $index, $element :=  .Params.carousselnu }}
-    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
-      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-      <p><span class="carousel-text">{{ $element.nom }}</span></p>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-  <a class="carousel-control-prev" href="#carouselnu" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselnu" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-</section>
-
-<section class="container padding-top-bot-2 responsive-sm">
-  <h1 class="catalogue-h1">Les éléments de l'espace</h1>
-  <div class="carouselnu-padding">
-  <div id="carouselnusm" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    {{ range $index, $element :=  .Params.carousselnusm }}
-    <div class="carousel-item {{ if (eq $index 0) }}active{{ end }}">
-      <img class="d-block w-100" src="{{ $element.img }}" alt="First slide">
-      <div class="carousel-caption">
-      <p><span class="carousel-text">{{ $element.nom }}</span></p>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-  <a class="carousel-control-prev" href="#carouselnusm" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselnusm" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-</section>-->
-
-<section class="container">
-  <p>A partir de {{ .Params.age }}</p>
-  <p>Jusqu'à {{ .Params.nombre }} enfants dans l'espace de jeux</p>
-  {{ .Content }}
-</section>
 <section class="container padding-top-bot-2">
-  <h1 class="catalogue-h1">Informations techniques</h1>
+  <h1 class="catalogue-h1">Informations</h1>
   <ul class="catalogue-ul">
     <li><span class="catalogue-ul-bold">Age :</span> {{ .Params.age }}</li>
-    <li><span class="catalogue-ul-bold">Nombre d'enfants :</span> jusqu'à {{ .Params.nombre }}</li>
-    <li><span class="catalogue-ul-bold">Superficie nécessaire au jeu :</span> {{ .Params.superficie }}</li>
-    <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}
+    <li><span class="catalogue-ul-bold">Nombre d'enfants simultanément * :</span> jusqu'à {{ .Params.nombre }}</li>
+    <li><span class="catalogue-ul-bold">Superficie minimale nécessaire au jeu * :</span> {{ .Params.superficie }}</li>
+    <li><span class="catalogue-ul-bold">Préférence de lieu :</span> {{ .Params.preference }}</li>
+    <li class="catalogue-info"><span class="padding-left-3">{{ .Content | markdownify }}</span></li>
   </ul>
-<p class="technique">Les informations techniques sont données à titre indicatif pour un cadre ludique optimal.<br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants nécessitera une plus grande superficie de jeu, etc.</p>
-</section>
-
-<section class="container padding-top-bot-2">
-  <h1 class="catalogue-h1">Tarifs</h1>
-  <div class="padding-top-bot-2 tarif">
-
- <div class="row text-center prix">
-   <div class="col-lg-6 col-md-6 col-sm-12">
-     <div class="icon">
-     <img src="/img/icon-agenda.png" alt="Location" width="45rem">
-     </div>
-     <h2 style="padding:0;">Professionnels</h2>
-     <h3>Manifestations, festivals</h3>
-       <p>Contactez-nous pour un devis sur mesure.</p>
-     <h3>Structures d'accueil</h3>
-       <p>Intervention journée ou demi-journée sur devis. <br>Location à partir de {{ .Params.prixlocation }} euros la semaine</p>
-       <small>(tarif dégressif dès la deuxième semaine)</small>
-       <br><br>
-       <!--<div class="details">
-  <a href="/catalogue#a1">Retrouvez le détail des offres<br> ici</a>
-</div>-->
- </div>
-   <div class="col-lg-6 col-md-6 col-sm-12">
-     <div class="icon small">
-     <img src="/img/icon-fanion.png" alt="Prestation" width="45rem">
-     </div>
-     <h2 style="padding:0;">Particuliers</h2>
-     <h3>Anniversaires</h3>
-      <p>à partir de 190 euros jusqu'à 10 enfants<br>+ 15 euros par enfant supplémentaire.</p>
-     <h3>Mariages, fêtes de famille</h3>
-     <p>Contactez-nous pour un devis sur mesure.</p>
-     <br>
-    <!-- <div class="details">
-     <a href="/catalogue#a2">Retrouvez le détail des offres<br>ici</a>
-</div>-->
-   </div>
- </div>
+<p class="technique"><span class="catalogue-ul-bold">*</span> Ces informations sont données à titre indicatif pour un cadre ludique optimal avec l'espace au complet.<br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants nécessitera une plus grande surface de jeu, etc.</p>
+<div class="catalogue-ul ">
+  <br>
+<p class="catalogue-ul-bold">Disponible en location à la journée, à la semaine ou en prestation avec animation assurée par Symbolik.</p>
+</div>
+<div class="link-catalogue text-center demande">
+    <a href="/contact">
+      <button type="button" class="btn btn-light">Demander nos disponibilités</button></a>
 </div>
 </section>
 <section class="container">
-  <div class="text-center">
-  <a href="/contact"><button type="button" class="btn btn-light">Demander un devis</button></a>
-</div>
-</section>
-
-<section class="container">
-  <div class="voiraussi">
-  <h3>Voir aussi</h3>
-      {{ range .Params.voiraussi }}
-      <a href="{{ .lien }}"><img src="{{ .img }}" alt="{{ .espace }}" class="pic"></a>
+    <div class="voir-aussi">
+      <h3>Voir aussi :</h3>
+  <div class="row">
+    {{ $name := .Params.title}}
+    {{ range $.Site.Pages }}
+    {{ if isset .Params "espace" }}
+    {{ if ne .Params.Title $name}}
+    <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+    <a href="{{ .Params.lien }}"><img src="{{ .Params.catalogueimgb }}" alt="" class="pic"></a>
+  </div>
     {{ end }}
+    {{ end }}
+  {{ end }}
+
+</div>
   </div>
 </section>
 

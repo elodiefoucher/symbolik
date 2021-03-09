@@ -7,59 +7,31 @@ banniere: "/img/enquete-catalogue.jpg"
 bannieresm: "/img/enquete-sm-catalogue.jpg"
 titleimg: "/img/enquete-titre.png"
 catalogueimg: "/img/enquete-index-catalogue4.jpg"
-voiraussi:
-  - espace : "Pirates"
-    lien: "/catalogue/pirates"
-    img: "/img/pirates-vignette.jpg"
-    age: "à partir de 5 ans"
-  - espace: "Western"
-    lien: "/catalogue/western"
-    img: "/img/western-vignette.jpg"
-    age: "à partir de 5 ans"
+catalogueimgb: "/img/enquete-vignette.jpg"
 age: "à partir de 5 ans"
 description: "Une plongée au coeur du monde des détectives.<br>Dans une ambiance rétro, on mène l'enquête, loupe à la main et indices en poche pour trouver le coupable."
 superficie: "30 m²"
 preference: "Intérieur/Extérieur"
 nombre: "10"
-prixlocation: "330"
-prixmanifpro: "500"
-prixmanifpart: "500"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
-carousselenjeu:
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-en-jeu.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-en-jeu-2.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-en-jeu-3.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-en-jeu-4.jpg"
-carousselenjeusm:
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-sm-en-jeu.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-sm-en-jeu-2.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-sm-en-jeu-3.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-sm-en-jeu-4.jpg"
-  - nom: "Fête du cente social Moulin à Vent, Vénissieux"
-    img: "/img/enquete-sm-en-jeu-5.jpg"
-
-carousselnu:
-  - nom: "Le bureau du détective et ses impers"
-    img: "/img/enquete-espace-bureau.jpg"
-  - nom: "Le coin des journalistes"
-    img: "/img/enquete-espace-bureau-zoom.jpg"
-  - nom: "La scène de crime et le bureau"
-    img: "/img/enquete-espace-scene-crime.jpg"
-carousselnusm:
-  - nom: "Le bureau"
-    img: "/img/enquete-sm-espace-bureau.jpg"
-  - nom: "Les impers"
-    img: "/img/enquete-sm-espace-deguisement.jpg"
-  - nom: "Les journalistes"
-    img: "/img/enquete-sm-espace-journaliste.jpg"
-  - nom: "La scène de crime"
-    img: "/img/enquete-sm-espace-scene-crime.jpg"   
+slider:
+  - img: "/img/enquete-1.JPG"
+  - img: "/img/enquete-2.JPG"
+  - img: "/img/enquete-3.JPG"
+  - img: "/img/enquete-4.JPG"
+  - img: "/img/enquete-5.JPG"
+  - img: "/img/enquete-6.JPG"
+  - img: "/img/enquete-7.JPG"
+  - img: "/img/enquete-8.JPG"
 ---
+**Le décor comprend :**
+
+- Du mobilier de bureau (vintage)
+
+- Un porte manteau
+
+- du matériel de bureau (machine à écrire, téléphone...)
+
+- Des déguisements d'enquêteurs
+
+- Une malette avec des indices et autre pour mener des enquêtes

@@ -7,7 +7,7 @@ banniere: "/img/pirates-catalogue.jpg"
 bannieresm: "/img/pirates-sm-catalogue.jpg"
 titleimg: "/img/pirates-titre.png"
 catalogueimg: "/img/pirates-index-catalogue2.jpg"
-agetitle: "à partir de 5 ans"
+catalogueimgb: "/img/pirates-vignette.jpg"
 voiraussi:
   - espace: "Western"
     lien: "/catalogue/western"
@@ -26,56 +26,31 @@ prixlocation: "330"
 prixmanifpro: "480"
 prixmanifpart: "360"
 nb: "Les informations techniques sont donnés à titre indicatif pour un cadre ludique optimal. <br>Elles sont ajustables à la situation : pour une superficie limitée on préférera un nombre réduit d'enfants, plus d'enfants necessitera une plus grande superficie de jeu, etc."
-carousselenjeu:
-  - nom: "Après-midi jeu avec le Collectif Ludikap à La Miette"
-    img: "/img/pirates-en-jeu.jpg"
-  - nom: "Animation à la Maison de l'enfance Anatole France"
-    img: "/img/pirates-en-jeu-2.jpg"
-  - nom: "Création d'accessoire et jeu libre avec les enfants descolarisés à La Myne"  
-    img: "/img/pirates-en-jeu-3.jpg"
-  - nom: "Ludothèque en extérieur au festival Flocons d'Art"
-    img: "/img/pirates-en-jeu-4.jpg"
-carousselenjeusm:
-  - img: "/img/pirates-sm-en-jeu.jpg"
-  - img: "/img/pirates-sm-en-jeu-5.jpg"
-  - img: "/img/pirates-sm-en-jeu-3.jpg"
-  - img: "/img/pirates-sm-en-jeu-4.jpg"
-  - img: "/img/pirates-sm-en-jeu-2.jpg"
-  - img: "/img/pirates-sm-en-jeu-6.jpg"
-carousselnu:
-  - nom: "Le bateau"
-    img: "/img/pirates-espace-bateau.jpg"
-  - nom: "L'île déserte et la cabane de pirates"
-    img: "/img/pirates-espace-ile-cabane.jpg"
-  - nom: "La prison"
-    img: "/img/pirates-espace-prison.jpg"
-  - nom: "Les costumes"
-    img: "/img/pirates-espace-deguisements.jpg"    
-  - nom: "Les costumes et les armes"
-    img: "/img/pirates-espace-deguisements-armes.jpg"    
-  - nom: "Le trésor"
-    img: "/img/pirates-espace-tresor-malle.jpg"    
-carousselnusm:
-  - nom: "Le bateau"
-    img: "/img/pirates-sm-espace-bateau.jpg"
-  - nom: "Le bateau"
-    img: "/img/pirates-sm-espace-bateau-2.jpg"
-  - nom: "L'île déserte"
-    img: "/img/pirates-sm-espace-ile.jpg"
-  - nom: "La cabane de pirates"
-    img: "/img/pirates-sm-espace-cabane.jpg"
-  - nom: "La prison"
-    img: "/img/pirates-sm-espace-prison.jpg"
-  - nom: "Les costumes"
-    img: "/img/pirates-sm-espace-deguisements.jpg"    
-  - nom: "Les armes et la malle"
-    img: "/img/pirates-sm-espace-armes.jpg"    
-  - nom: "Le trésor"
-    img: "/img/pirates-sm-espace-tresor.jpg"    
+slider:
+  - img: "/img/pirates-1.JPG"
+  - img: "/img/pirates-2.JPG"
+  - img: "/img/pirates-3.JPG"
+  - img: "/img/pirates-4.JPG"
+  - img: "/img/pirates-5.JPG"
+  - img: "/img/pirates-6.JPG"
+  - img: "/img/pirates-7.JPG"
+  - img: "/img/pirates-8.JPG"
+  - img: "/img/pirates-9.JPG"
+  - img: "/img/pirates-10.JPG"
+  - img: "/img/pirates-12.JPG"
+  - img: "/img/pirates-13.JPG"
+  - img: "/img/pirates-14.JPG"    
+  - img: "/img/pirates-15.JPG"    
+  - img: "/img/pirates-16.jpg"
 ---
-Le décor comprend :
-  - Un espace bateau pour naviguer avec vigi, gouvernail, drapeau à hisser
-  - Une île déserte
-  - Une cabane
-  - Une valise plein d'accessoire : déguisements, armes, trésors, ...
-  - Un porte manteau
+**Le décor comprend :**
+
+ - Un espace bateau pour naviguer avec vigi, gouvernail, drapeau à hisser
+
+ - Une île déserte
+
+ - Une cabane
+
+ - Une valise pleine d'accessoires : déguisements, armes, trésors, ...
+
+ - Un porte manteau
