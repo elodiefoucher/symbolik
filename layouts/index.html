@@ -66,13 +66,19 @@
         {{ range .Params.offres }}
         <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-flex align-items-stretch col-centered">
           <div class="prestaaccueil">
-
-            <h3 class="locationintro">{{ .description | markdownify }}</h3>
             <div class="icon">
             <img src="{{ .icon }}" alt="{{ .nom }}" width="60rem">
             </div>
-            <p class="locationcontent">{{ .intro }}</p>
-             <h2 class="locationtitle">{{ .nom }}</h2>
+            <h3>{{ .qui }}</h3>
+            <h3 class="locationintro">{{ .description | markdownify }}</h3>
+            <div class="link-catalogue text-center demande">
+                <a href="{{ .link }}">
+                  <button type="button" class="btn btn-light">
+                    <p class="locationcontent">{{ .intro }}</p>
+                     <h2 class="locationtitle">{{ .nom }}</h2>
+                  </button></a>
+            </div>
+
       </div>
     </div>
         {{ end }}
@@ -81,16 +87,16 @@
 </section>
 
 <section class="container padding-top-bot-2">
-  <div class="indexsection3">
+<!--  <div class="indexsection3">
       <h2>Des thèmes variés</h2>
- </div>
+ </div>-->
 <div class="row">
   {{ range .Data.Pages }}
   {{ if isset .Params "espace" }}
-  <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+  <div class="col-lg-3 col-md-3 col-sm-4 mx-auto text-center">
     <div class="image padding-top-bot-1">
       <a href="/catalogue/{{ .Params.lien }}">
-        <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+        <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="70%" title="{{ .Params.title }}">
       </a>
     </div>
 </div>
@@ -125,7 +131,7 @@
     </div>
 </section>
 
-<section class="container">
+<!--<section class="container">
   <h2>Retrouvez nous sur instagram</h2>
   <div class="card-deck">
     <div class="card">
@@ -150,7 +156,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 <!--<section class="container">
  <div class="indexsection3">

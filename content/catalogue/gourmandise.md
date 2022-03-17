@@ -27,6 +27,11 @@ slider:
   - img: "/img/gourmandise-9.jpg"
   - img: "/img/gourmandise-10.JPG"
   - img: "/img/gourmandise-11.jpg"
+  - img: "/img/gourmandise-12.jpg"
+  - img: "/img/gourmandise-13.jpg"
+  - img: "/img/gourmandise-14.jpg"
+  - img: "/img/gourmandise-15.jpg"
+  - img: "/img/gourmandise-16.jpg"
 ---
 **Le décor comprend :**
 

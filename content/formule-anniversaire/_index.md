@@ -31,4 +31,4 @@ slider:
 
 - **Avec animation sur mesure selon les espaces :** maquillage, animation loisirs créatifs, animation découverte... <br>*A partir de 40 euros/heure.*
 
-- **Un kit cadeau sur mesure :** extrait de l'espace loué, un déguisement ou des accessoires pour prolonger le jeu après sa journée. <br> *A partir de 30 euros.*
+<!-- **Un kit cadeau sur mesure :** extrait de l'espace loué, un déguisement ou des accessoires pour prolonger le jeu après sa journée. <br> *A partir de 30 euros.*-->

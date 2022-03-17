@@ -29,6 +29,7 @@ slider:
   - img: "/img/western-9.JPG"
   - img: "/img/western-10.JPG"
   - img: "/img/western-11.JPG"
+  - img: "/img/western-12.jpg"  
 ---
 **Le décor comprend :**
 

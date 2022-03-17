@@ -61,7 +61,7 @@
     {{ if isset .Params "espace" }}
     {{ if ne .Params.Title $name}}
     <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
-    <a href="{{ .Params.lien }}"><img src="{{ .Params.catalogueimgb }}" alt="" class="pic"></a>
+    <a href="/catalogue{{ .Params.lien }}"><img src="{{ .Params.catalogueimgb }}" alt="" class="pic"></a>
   </div>
     {{ end }}
     {{ end }}

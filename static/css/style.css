@@ -285,7 +285,7 @@ a:active {
  }
 }
 .citation h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
 }
 .thumbnail {
@@ -301,7 +301,7 @@ a:active {
   color: rgb(50,50,50);
 }
 .link-catalogue {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 .link-catalogue a:hover {
@@ -673,6 +673,9 @@ a:active {
   font-weight: 400;
   text-transform: uppercase;
 }
+.locationtitle h2 {
+  padding-bottom: 1rem;
+}
 .locationintro {
   text-align: center;
   font-size: 1.3rem;
@@ -685,7 +688,7 @@ a:active {
   font-weight: 200;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  margin-top:1.5rem;
+  margin-top:1rem;
 }
 
 .explicationbutton {
@@ -753,6 +756,7 @@ button:hover {
  .icon {
    text-align: center;
    padding-top: 1.5rem;
+   padding-bottom: 1rem;
  }
 
 .catalogue-card-title {
