@@ -15,7 +15,7 @@ voiraussi:
     lien: "/catalogue/cirque"
     img: "/img/cirque-vignette.jpg"
     age: "de 3 à 8 ans"
-age: "à partir de 5 ans"
+age: "à partir de 2 ans"
 description: "A la découverte des terres polaires. <br>Igloo, chasse, pêche, cuisine, une plongée dans le quotidien des esquimaux qui fera peut-être claquer quelques dents !"
 superficie: "40 m²"
 preference: "intérieur ou extérieur"
