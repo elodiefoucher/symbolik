@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Le jeu symbolique"
 intro: "Symbolik propose aux enfants de se plonger dans ses univers singuliers et poétique. <br>Réalistes ou fantasques, les espaces de jeu Symbolik s'adaptent à l'âge pour laisser la liberté à l'imaginaire de se développer."
 ---

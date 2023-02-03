@@ -2,10 +2,11 @@
 title: "Formule anniversaire"
 intro: "Envie de leur offrir un anniversaire dont ils se souviendront longtemps ?"
 formule: "Symbolik vous propose sa formule anniversaire :"
-formuleanni:
+formulecontent:
   - txt: Location d'un espace de jeu de votre choix
   - txt: Livraison et installation à votre domicile
 prix: "A partir de 300 euros"
+colonne2: "En option :"
 slider:
   - img: "/img/cirque-1.JPG"
   - img: "/img/ecole-des-sorciers-1.JPG"
@@ -26,9 +27,6 @@ slider:
   - img: "/img/pirates-16.jpg"
 
 ---
-
-**En option :**
-
 - **Avec animation sur mesure selon les espaces :** maquillage, animation loisirs créatifs, animation découverte... <br>*A partir de 40 euros/heure.*
 
 <!-- **Un kit cadeau sur mesure :** extrait de l'espace loué, un déguisement ou des accessoires pour prolonger le jeu après sa journée. <br> *A partir de 30 euros.*-->

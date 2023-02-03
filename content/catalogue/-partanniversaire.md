@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "anniversaire"
 slug: "anniversaire"
 icon: "/img/icon-anniversaire.png"

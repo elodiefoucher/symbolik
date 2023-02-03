@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Location à la semaine"
 slug: "location"
 icon: "/img/icon-agenda.png"

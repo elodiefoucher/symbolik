@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Prestations"
 ---
 # Location semaine ou mois :

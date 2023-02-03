@@ -77,6 +77,9 @@
 .padding-0 {
   padding: 0rem;
 }
+.padding-1 {
+  padding: 1rem;
+}
 .padding-2 {
   padding: 2rem;
 }
@@ -948,11 +951,26 @@ input {
 
 .formule h2 {
   font-size: 1.7rem;
+  padding: 0rem;
 }
 .formule p {
   font-weight: 600;
   font-size: 1.2rem;
 }
 .formule li {
-  font-size: 1.2rem;
+  list-style: disc;
+  padding-top: 0.5rem;
 }
+
+@media (max-width: 768px) {
+.formule-img {
+   width:100%;
+ }
+}
+
+@media (min-width: 768px) {
+.formule-img {
+  width:70%;
+ }
+}
+

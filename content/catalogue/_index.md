@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Catalogue"
 titleimg:
   - "/img/gourmandise-titre.png"

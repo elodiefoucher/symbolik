@@ -1,0 +1,99 @@
+{{ define "main" }}
+<section class="container">
+  <div class="citation">
+    <div class="padding-top-3">
+      <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
+    </div>
+  </div>
+</section>
+<br>
+{{ if isset .Params "formule" }}
+<section class="container">
+  <div class="content formule text-center">
+    <h2>{{ .Params.intro }}</h2>
+    <h2>{{ .Params.intro2 }}</h2>
+    <h2>{{ .Params.formule }}</h2>
+    <br>
+  </div>
+</section>
+
+<section class="container padding-top-bot-2">
+  <div class="row">
+<!--    <div class="col-lg-4 col-md-4 col-sm-12 padding-0 text-right">
+      <img src="/img/western-12.jpg" alt="anniversaire-pirates" width="100%">
+    </div>-->
+    <div class="col-lg-6 col-md-6 col-sm-12 content">
+      <h3>{{ .Params.title }} :</h3>
+      <br>
+      <div class="green-light padding-1">
+  <table style="height: 100%; width: 100%">
+        <tbody>
+          <tr>
+            <td class="align-middle">
+                 
+              <ul class="mx-auto formule">
+                {{ range .Params.formulecontent }}
+                <li>{{ .txt }}</li>
+                {{ end }}
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <br>
+      <div class="content formule text-center">
+        <p>{{ .Params.prix }}</p>
+      </div>
+      <br>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 content">
+      <h3>{{ .Params.colonne2 }}</h3>
+      <br>
+      <div class="green-light padding-1">
+  <table style="height: 100%; width: 100%">
+        <tbody>
+          <tr>
+            <td class="align-middle formule">
+              {{ .Content | markdownify }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <br>
+      <div class="content formule text-center">
+        <p></p>
+      </div>
+      <br>
+    </div>
+  </div>
+  <div class="link-catalogue text-center demande">
+    <a href="/contact">
+      <button type="button" class="btn btn-light">Contactez Elodie pour en savoir plus</button></a>
+  </div>
+
+</section>
+{{ end }}
+
+<section class="container padding-top-bot-2">
+  <div class="indexsection3">
+    <h2>Découvrez tous nos thèmes</h2>
+    <br>
+  </div>
+  <div class="row">
+    {{ range $.Site.Pages }}
+    {{ if isset .Params "espace" }}
+    <div class="col-lg-3 col-md-3 col-sm-6 mx-auto text-center">
+      <div class="image padding-top-bot-1">
+        <a href="/catalogue/{{ .Params.lien }}">
+          <img class="formule-img" src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" title="{{ .Params.title }}">
+        </a>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+</section>
+
+{{ end }}

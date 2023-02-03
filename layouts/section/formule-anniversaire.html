@@ -1,22 +1,24 @@
 {{ define "main" }}
 <section class="container">
- <div class="citation">
-   <p class="padding-top-3">{{ .Params.intro }}</p>
-   <div class="padding-top-3">
-     <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
-   </div>
-
- </div>
+  <div class="citation">
+    <div class="padding-top-3">
+      <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
+    </div>
+  </div>
 </section>
+<br>
 <section class="container">
   <div class="content formule text-center">
+    <h2 >{{ .Params.intro }}</h2>
     <h2>{{ .Params.formule }}</h2>
+    <br>
     <ul class="mx-auto">
       {{ range .Params.formuleanni }}
       <li>{{ .txt }}</li>
       {{ end }}
     </ul>
     <p>{{ .Params.prix }}</p>
+  </div>
 </section>
 
 <section class="padding-top-bot-2">
@@ -30,36 +32,36 @@
           <tr>
             <td class="align-middle">
               {{ .Content | markdownify }}
-         </td>
-       </tr>
-      </tbody>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
 </section>
 <section>
-<div class="link-catalogue text-center demande">
+  <div class="link-catalogue text-center demande">
     <a href="/contact">
       <button type="button" class="btn btn-light">Réserver un anniversaire</button></a>
-</div>
+  </div>
 </section>
 <section class="container padding-top-bot-2">
-      <div class="indexsection3">
-          <h2>Découvrez tous nos thèmes</h2>
-     </div>
-    <div class="row">
-      {{ range $.Site.Pages }}
-      {{ if isset .Params "espace" }}
-      <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
-        <div class="image padding-top-bot-1">
-          <a href="/catalogue/{{ .Params.lien }}">
-            <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
-          </a>
-        </div>
+  <div class="indexsection3">
+    <h2>Découvrez tous nos thèmes</h2>
+  </div>
+  <div class="row">
+    {{ range $.Site.Pages }}
+    {{ if isset .Params "espace" }}
+    <div class="col-lg-2 col-md-3 col-sm-4 mx-auto text-center">
+      <div class="image padding-top-bot-1">
+        <a href="/catalogue/{{ .Params.lien }}">
+          <img src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" width="100%" title="{{ .Params.title }}">
+        </a>
+      </div>
     </div>
     {{ end }}
     {{ end }}
 
-    </section>
+</section>
 
 {{ end }}
