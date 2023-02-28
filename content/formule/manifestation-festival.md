@@ -13,6 +13,9 @@ formulecontent:
 prix: "Prenons contact pour discuter des possibilités !"
 reserver: "un évènement"
 ---
-- des espaces de jeux 
+
+Téléchargez notre brochure pour plus d'informations :
+
+- [Brochure Symbolik manifestation](/doc/symbolik-animation-festival.pdf)
 
 

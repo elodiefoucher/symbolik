@@ -33,6 +33,9 @@
 .text-green {
   color: rgb(137,148,148);
 }
+.text-blue {
+  color: rgb(30,122,130) ;
+}
 .text-center {
   text-align: center;
 }
@@ -289,7 +292,6 @@ a:active {
 }
 .citation h2 {
   padding-bottom: 1rem;
-
 }
 .thumbnail {
     width: 260px;
@@ -301,7 +303,7 @@ a:active {
   font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(50,50,50);
+  color: rgb(30,122,130);
 }
 .link-catalogue {
   padding-top: 1rem;
@@ -668,6 +670,7 @@ a:active {
   padding-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  color: rgb(30,122,130);
 }
 
 .locationtitle {
@@ -678,12 +681,13 @@ a:active {
 }
 .locationtitle h2 {
   padding-bottom: 1rem;
+  color: rgb(30,122,130);
 }
 .locationintro {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 400;
-  color: rgb(40, 40, 40);
+  color: rgb(30,122,130);
 }
 
 .locationcontent {
@@ -692,6 +696,7 @@ a:active {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   margin-top:1rem;
+  color: rgb(30,122,130);
 }
 
 .explicationbutton {
@@ -954,9 +959,10 @@ input {
   padding: 0rem;
 }
 .formule p {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 100;
+  font-size: 1rem;
 }
+
 .formule li {
   list-style: disc;
   padding-top: 0.5rem;
