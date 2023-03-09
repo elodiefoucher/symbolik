@@ -1,0 +1,71 @@
+{{ define "main" }}
+<section class="container">
+  <div class="citation">
+    <div class="padding-top-3">
+      <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
+    </div>
+  </div>
+</section>
+<br>
+{{ if isset .Params "formule" }}
+<section>
+  <div class="content formule text-center">
+    <h2>{{ .Params.intro }}</h2>
+    <h2>{{ .Params.intro2 }}</h2>
+    <h2>{{ .Params.formule }}</h2>
+    <h2>{{ .Params.formule2 }}</h2>
+    <br>
+  </div>
+</section>
+<section class="padding-top-bot-2">
+  <div class="formule">  
+  <h1>{{ .Params.title }}</h1>
+      <br>
+
+      <div class="green-light padding-3">
+                 {{ .Content | markdownify }}
+      <br>
+      <div class="center formule-img-doc">
+        <a href="{{ .Params.lien }}" target="_blank"><img src="{{.Params.img }}" width="30%"alt="symbolik-animation-mariage"></a>
+      </div>
+    </div>
+    </div>
+  <div class="link-catalogue text-center demande">
+    <a href="/contact">
+      <button type="button" class="btn btn-light">Contactez Elodie pour en savoir plus</button></a>
+  </div>
+
+</section>
+{{ end }}
+
+<section class="container padding-top-bot-2">
+  <div class="indexsection3">
+    <h2>Découvrez tous nos thèmes</h2>
+    <br>
+  </div>
+  <div class="row">
+    {{ range $.Site.Pages }}
+    {{ if isset .Params "espace" }}
+    <div class="col-lg-2 col-md-2 col-sm-4 mx-auto text-center">
+      <div class="image padding-top-bot-1">
+        <a href="/catalogue/{{ .Params.lien }}">
+          <img class="formule-img" src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" title="{{ .Params.title }}">
+        </a>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+</section>
+
+<section class="padding-top-bot-2">
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {{ range .Params.slider }}
+        <div class="swiper-slide"><img src="{{ .img }}"></div>
+        {{ end }}
+        </div>
+      </div>
+  <div class="swiper-pagination"></div>
+</section>
+{{ end }}
