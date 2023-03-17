@@ -1,78 +1,116 @@
 {{ define "main" }}
 <section class="container">
-  <div class="citation">
-    <div class="padding-top-3">
+  <div class="citation formule-intro">
+    <h1>{{ .Params.title }}</h1>
+    <div class="padding-top-1-2">
       <img src="/img/logo-minimaliste.png" alt="logo-symbolik" width="8%">
     </div>
   </div>
-</section>
-<br>
-{{ if isset .Params "formule" }}
-<section class="container">
-  <div class="content formule text-center">
+  <br>
+  {{ if isset .Params "formule" }}
+  <div class="content formule-intro text-center">
     <h2>{{ .Params.intro }}</h2>
-    <h2>{{ .Params.intro2 }}</h2>
+    <h2 style="font-weight: 400;">{{ .Params.intro2 }}</h2>
     <h2>{{ .Params.formule }}</h2>
+    <h2>{{ .Params.formule2 }}</h2>
     <br>
   </div>
 </section>
-
-<section class="container padding-top-bot-2">
+<br>
+<section class="formule ">
   <div class="row">
-<!--    <div class="col-lg-4 col-md-4 col-sm-12 padding-0 text-right">
-      <img src="/img/western-12.jpg" alt="anniversaire-pirates" width="100%">
-    </div>-->
-    <div class="col-lg-6 col-md-6 col-sm-12 content">
-      <h3>{{ .Params.title }} :</h3>
-      <br>
-      <div class="green-light padding-1">
-  <table style="height: 100%; width: 100%">
-        <tbody>
-          <tr>
-            <td class="align-middle">  
-              <ul class="mx-auto formule">
-                {{ range .Params.formulecontent }}
-                <li>{{ .txt }}</li>
-                {{ end }}
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="col-lg-8 col-md-7 col-sm-12 green-light">
+      <div class="text-blue padding-2">
+        <h2 class="text-center">{{ .Params.accrochetitle }}</h2>
+        {{ range .Params.accrochetxt }}
+        <p>{{ .txt }}</p>
+        {{ end }}
       </div>
-      <br>
-      <div class="content formule text-center">
-        <h3>{{ .Params.prix }}</h3>
-      </div>
-      <br>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 content">
-      <h3>{{ .Params.colonne2 }}</h3>
-      <br>
-      <div class="green-light padding-1">
-  <table style="height: 100%; width: 100%">
-        <tbody>
-          <tr>
-            <td class="align-middle formule">
-              {{ .Content | markdownify }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="col-lg-4 col-md-5 col-sm-12 text-blue-background">
+      <div class="padding-2" style="color:white;">
+        <h2 class="text-center">{{ .Params.accrochesidetitle }}</h2>
+        {{ range .Params.accrocheside }}
+        <p class="text-center">{{ .txt }}</p>
+        {{ end }}
       </div>
-      <br>
-      <div class="content formule text-center">
-        <p></p>
-      </div>
-      <br>
     </div>
   </div>
+</section>
+<br><br>
+<section class="formule">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-12 padding-0">
+      <img src="{{ .Params.imgformule }}" alt="" width="100%">
+    </div>
+    <div class="col-lg-8 col-md-9 col-sm-12">
+      <div class="padding-2 text-blue">
+        {{ .Content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-3">
   <div class="link-catalogue text-center demande">
     <a href="/contact">
-      <button type="button" class="btn btn-light">Contactez Elodie pour recevoir la brochure détaillée</button></a>
+      <button type="button" class="btn btn-light">Contactez Elodie pour en savoir plus</button></a>
   </div>
 
 </section>
+{{ if isset .Params "avis" }}
+<section>
+  <div class="formule-avis">
+    <h2>{{ .Params.avistitle }}</h2>
+  </div>
+  <div class="row">
+    {{ range .Params.avis }}
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="text-blue padding-2">
+        <div class="formule-avis">
+          <p>{{ .avistxt }}</p>
+        </div>
+        <div class="formule-avis-nom">
+          <p>{{ .avisnom }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+
+</section class="container">
+{{ if isset .Params "pro" }}
+<section class="green-light">
+  <div class="formule-pro padding-top-1-2">
+    <div class="container text-blue">
+      <h2>{{ .Params.protitle }}</h2>
+    </div>
+
+  </div>
+  <div class="row">
+    {{ range .Params.pro }}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="text-blue padding-1">
+        <div class="formule-pro">
+          <div class="text-center padding-1">
+            <img src="{{ .icon }}" alt="" height="60rem">
+          </div>
+          <h3>{{ .title }}</h3>
+        </div>
+        <div class="formule-pro">
+          <p>{{ .txt }}</p>
+          <p class="bold">{{ .txt2 }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
 {{ end }}
 
 <section class="container padding-top-bot-2">
@@ -80,13 +118,14 @@
     <h2>Découvrez tous nos thèmes</h2>
     <br>
   </div>
-  <div class="row">
+ <!--<div class="row">
     {{ range $.Site.Pages }}
     {{ if isset .Params "espace" }}
-    <div class="col-lg-3 col-md-3 col-sm-6 mx-auto text-center">
+    <div class="col-lg-2 col-md-2 col-sm-4 mx-auto text-center">
       <div class="image padding-top-bot-1">
         <a href="/catalogue/{{ .Params.lien }}">
-          <img class="formule-img" src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}" title="{{ .Params.title }}">
+          <img class="formule-img" src="{{ .Params.catalogueimgb }}" alt="{{ .Params.title }}"
+            title="{{ .Params.title }}">
         </a>
       </div>
     </div>
@@ -95,4 +134,22 @@
 
 </section>
 
+<section class="padding-top-bot-2">-->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {{ range $.Site.Pages }}
+      {{ if isset .Params "espace" }}
+      <div class="swiper-slide">
+        <div class="catalogue-rond">
+          <a href="/catalogue/{{ .Params.lien }}">
+            <img src="{{ .Params.catalogueimgb }}" style="height: 20vh; padding-left: 3rem;">
+          </a>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</section>
 {{ end }}

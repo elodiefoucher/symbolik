@@ -157,3 +157,38 @@ figcaption p {
     margin: auto; /* override style in theme */
 }
 
+/* Formules */
+
+.formule h1 {
+    font-size: 2rem;
+    color: rgb(30,122,130);
+    text-align: center;
+  }
+  .formule h2 {
+    font-size: 1.2rem;
+    padding: 0rem;
+  }
+  .formule p {
+    font-weight: 100;
+    font-size: 1rem;
+  }
+  .formule li {
+    list-style: none;
+    font-weight: 100;
+  }
+  
+  @media (max-width: 768px) {
+  .formule-img {
+     width:100%;
+   }
+  }
+  
+  @media (min-width: 768px) {
+  .formule-img {
+    width:70%;
+   }
+  }
+  
+  .formule-img-doc {
+    text-align: center;
+  }

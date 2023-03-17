@@ -1,32 +1,40 @@
 ---
 title: "Formule anniversaire"
-intro: "Envie de leur offrir un anniversaire dont ils se souviendront longtemps ?"
-formule: "Symbolik vous propose sa formule anniversaire :"
+formule: "Envie de leur offrir un anniversaire dont ils se souviendront ?"
+formule2: "Symbolik vous propose sa formule anniversaire !"
+accrochetitle: "UNE ANIMATION QUI SORT DE L'ORDINAIRE"
+accrochetxt:
+  - txt: "Il n'est pas toujours facile de trouver une animation originale pour votre enfant et ses invités !"
+  - txt: "Pour vos anniversaires, Symbolik vient à vous et vous propose ses espaces de jeux. A mi-chemin entre le spectacle et le jeu, nos espaces  permettent aux enfants de rentrer dans un univers et de créer leurs propres histoires."
+  - txt: "Quand un espace arrive chez vous, il transforme votre lieu et attire la curiosité des petits comme des grands."
+  - txt: ""
+accrochesidetitle: "« Les enfants en parlent longtemps après ! »"
+accrocheside: 
+  - txt: "Rentrer dans un décor, s’immerger dans une histoire, l’agrémenter comme dans un film... "
+  - txt: "Une expérience marquante pour les enfants qu'ils ne manqueront pas de vous raconter !"
+avistitle: ""
+avis1: ""
+avis1nom: ""
+avis2: ""
+avis2nom: ""
+avis3: ""
+avis3nom: ""
 formulecontent:
-  - txt: Location d'un espace de jeu de votre choix
-  - txt: Livraison et installation à votre domicile
-prix: "A partir de 300 euros"
-colonne2: "En option :"
-slider:
-  - img: "/img/cirque-1.JPG"
-  - img: "/img/ecole-des-sorciers-1.JPG"
-  - img: "/img/enquete-7.jpg"
-  - img: "/img/western-4.JPG"
-  - img: "/img/pirates-5.JPG"
-  - img: "/img/grand-nord-3.jpg"
-  - img: "/img/western-5.JPG"
-  - img: "/img/pirates-3.JPG"
-  - img: "/img/cirque-2.jpg"
-  - img: "/img/western-8.JPG"
-  - img: "/img/grand-nord-6.jpg"
-  - img: "/img/pirates-13.JPG"
-  - img: "/img/enquete-3.jpg"
-  - img: "/img/ecole-des-sorciers-4.JPG"    
-  - img: "/img/pirates-2.JPG"
-  - img: "/img/western-11.JPG"    
-  - img: "/img/pirates-16.jpg"
-
+  - txt: Un espace grands jeux en bois, pour du jeu en autonomie pour petits et grands.
+  - txt: "Animation sur mesure selon les espaces : (maquillage, animation loisirs créatifs, animation découverte en immersion dans le décor...)"
+img: "/img/symbolik-animation-mariage.jpg"
+lien: "/doc/symbolik-animation-mariage.pdf"
+imgaccroche: "/img/pirate-13.JPG"
+imgformule: "/img/pirates-13.JPG"
 ---
-- **Avec animation sur mesure selon les espaces :** maquillage, animation loisirs créatifs, animation découverte... <br>*A partir de 40 euros/heure.*
+## Notre formule anniversaire : 
 
-<!-- **Un kit cadeau sur mesure :** extrait de l'espace loué, un déguisement ou des accessoires pour prolonger le jeu après sa journée. <br> *A partir de 30 euros.*-->
+- Location d'un espace de jeu de votre choix
+- Livraison et installation à votre domicile
+
+Contactez-nous pour un devis !
+
+--- 
+
+En option :
+ - **Avec animation sur mesure selon les espaces :** maquillage, animation loisirs créatifs, animation découverte... 

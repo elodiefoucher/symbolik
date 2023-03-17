@@ -30,6 +30,9 @@
 .purple-light {
   background-color: rgb(238,237,255)
 }
+.text-blue-background {
+  background-color: rgb(30,122,130);
+}
 .text-green {
   color: rgb(137,148,148);
 }
@@ -70,9 +73,16 @@
 .padding-top-3 {
   padding-top: 3rem;
 }
+.padding-bot-1 {
+  padding-bottom: 1rem;
+}
 .padding-l-r-2 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+.padding-l-r-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .margin-1 {
   margin: 1rem;
@@ -954,9 +964,24 @@ input {
 
 /* Formules */
 
-.formule h2 {
-  font-size: 1.7rem;
+.formule h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.formule-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+.formule-intro h2 {
+  font-size: 1.3rem;
   padding: 0rem;
+}
+.formule h2 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 .formule p {
   font-weight: 100;
@@ -964,8 +989,32 @@ input {
 }
 
 .formule li {
-  list-style: disc;
+  list-style: none;
   padding-top: 0.5rem;
+  font-weight: 100;
+}
+.formule-avis h2 {
+  color: rgb(30,122,130) ;
+  font-weight: 200;
+  font-size: 2rem;
+  padding-left: 5rem;
+}
+.formule-avis-nom p {
+ font-weight: 600;
+ font-size: 0.9rem;
+ margin: 0rem;
+ text-align: right;
+}
+.formule-pro h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.formule-pro h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.formule-pro p {
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
