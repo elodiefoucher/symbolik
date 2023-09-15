@@ -23,14 +23,23 @@
 </section>
 
 <section class="padding-top-bot-2">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-        {{ range .Params.slider }}
-        <div class="swiper-slide"><img src="{{ .img }}"></div>
-        {{ end }}
-        </div>
-      </div>
-  <div class="swiper-pagination"></div>
+<!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {{ range .Params.slider }}
+      <div class="swiper-slide"><img src="{{ .img }}"></div>
+      {{ end }}
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
 </section>
 
 <section class="container padding-top-bot-2">

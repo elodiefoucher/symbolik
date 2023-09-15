@@ -324,32 +324,44 @@ a:active {
 }
 /* Catalogue single */
 
-.swiper-container {
+.swiper {
   width: 100%;
+  height: 100%;
 }
 
-.swiper-container2 {
-  width: 100%;
-}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
   width: auto!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
+  display: block;
+//   width: 100%;
   height: 60vh;
+  object-fit: cover;
 }
 
-.swiper-2 .swiper-slide img {
-  height: 25vh;
+.swiper-slide {
+  width: 80%;
 }
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+/* .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
   left: 25px!important;
-}
+} */
 .swiper-button-next, .swiper-button-prev {
-  color: transparent!important;
+  color: white!important;
 }
 
 .catalogue-age {

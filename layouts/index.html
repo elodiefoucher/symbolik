@@ -47,17 +47,24 @@
   </div>
 </section>
 
-<section class="padding-top-bot-2">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-        {{ range .Params.slider }}
-        <div class="swiper-slide"><img src="{{ .img }}"></div>
-        {{ end }}
-        </div>
-
-      </div>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {{ range .Params.slider }}
+    <div class="swiper-slide"><img src="{{ .img }}"></div>
+    {{ end }}
+  </div>
+  <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
-</section>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
 
 <section class="container">
   <div class="citation citation-padding">
@@ -102,18 +109,6 @@
 </div>
 {{ end }}
 {{ end }}
-<!--<div class="swiper-container swiper-2">
-    <div class="swiper-wrapper">
-      {{ range .Data.Pages }}
-      {{ if isset .Params "espace" }}
-      <div class="swiper-slide"><img src="{{ .Params.catalogueimgb }}"></div>
-      {{ end }}
-      {{ end }}
-      </div>
-      <div class="swiper-button-prev"><img src="/img/icon-arrow-left.png" alt=""></div>
-      <div class="swiper-button-next"><img src="/img/icon-arrow-right.png" alt=""></div>
-    </div>
-<div class="swiper-pagination"></div>-->
 
 </section>
 
